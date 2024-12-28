@@ -1,0 +1,2296 @@
+2024-12-28 09:41:27,412:CRITICAL:Application crashed: 'MainController' object has no attribute 'update_frequency_domain_plot'
+2024-12-28 15:47:13,719 - INFO - Logging is set up.
+2024-12-28 15:47:13,719 - INFO - Application started.
+2024-12-28 15:47:13,842 - DEBUG - Applied stylesheet to the application.
+2024-12-28 15:47:16,438 - INFO - Attempting to load record: p09/p099982/3001360_0001
+2024-12-28 15:47:16,441 - INFO - Record p09/p099982/3001360_0001 loaded successfully.
+2024-12-28 15:47:16,442 - INFO - Record 'p09/p099982/3001360_0001' loaded successfully.
+2024-12-28 15:47:16,442 - DEBUG - Valid value range: 60.0 < 180.0
+2024-12-28 15:47:16,442 - INFO - Value range filter applied successfully.
+2024-12-28 15:47:16,452 - INFO - Filter strategy set to Butterworth.
+2024-12-28 15:47:16,453 - DEBUG - Butterworth bandpass filter applied successfully.
+2024-12-28 15:47:16,453 - INFO - ButterworthFilter applied successfully.
+2024-12-28 15:47:16,453 - INFO - Detected 5 original peaks, 2 filtered peaks.
+2024-12-28 15:47:16,454 - INFO - Peak detection completed successfully.
+2024-12-28 15:47:16,454 - INFO - Metrics calculation completed successfully.
+2024-12-28 15:47:16,454 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:47:17,137 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:47:17,151 - DEBUG - Generating Histogram plot.
+2024-12-28 15:47:17,177 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:47:17,178 - ERROR - Error generating filter frequency response plot: cannot access local variable 'freqz' where it is not associated with a value
+2024-12-28 15:47:17,178 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpd54qpmra.html
+2024-12-28 15:47:17,179 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:47:17,180 - DEBUG - Updated hr_original_label to 88.76 bpm
+2024-12-28 15:47:17,180 - DEBUG - Updated hrv_original_label to 0.01 s
+2024-12-28 15:47:17,180 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:47:17,180 - DEBUG - Updated pp_original_label to 53.75 mmHg
+2024-12-28 15:47:17,180 - DEBUG - Updated hr_filtered_label to 29.53 bpm
+2024-12-28 15:47:17,180 - DEBUG - Updated hrv_filtered_label to N/A
+2024-12-28 15:47:17,180 - DEBUG - Updated sqi_filtered_label to 0.96
+2024-12-28 15:47:17,180 - DEBUG - Updated pp_filtered_label to 69.58 mmHg
+2024-12-28 15:47:18,498 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 15:47:18,499 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpdxk3phik.html
+2024-12-28 15:47:41,910 - INFO - Application is closing. Cleaning up temporary files.
+2024-12-28 15:47:41,911 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpd54qpmra.html
+2024-12-28 15:51:31,130 - INFO - Logging is set up.
+2024-12-28 15:51:31,130 - INFO - Application started.
+2024-12-28 15:51:31,253 - DEBUG - Applied stylesheet.
+2024-12-28 15:51:36,507 - INFO - Attempting to load record: p09/p099982/3001360_0001
+2024-12-28 15:51:36,510 - INFO - Record p09/p099982/3001360_0001 loaded successfully.
+2024-12-28 15:51:36,511 - INFO - Record 'p09/p099982/3001360_0001' loaded successfully.
+2024-12-28 15:51:36,511 - INFO - Value range filter applied successfully.
+2024-12-28 15:51:36,511 - INFO - Filter strategy set to Butterworth.
+2024-12-28 15:51:36,511 - DEBUG - Butterworth bandpass filter applied successfully.
+2024-12-28 15:51:36,511 - INFO - ButterworthFilter applied successfully.
+2024-12-28 15:51:36,512 - INFO - Detected 5 original peaks, 2 filtered peaks.
+2024-12-28 15:51:36,512 - INFO - Peak detection completed successfully.
+2024-12-28 15:51:36,512 - INFO - Metrics calculation completed successfully.
+2024-12-28 15:51:36,512 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:51:37,196 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:51:37,211 - DEBUG - Generating Histogram plot.
+2024-12-28 15:51:37,237 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:51:37,270 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 15:51:37,270 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp81bx11z7.html
+2024-12-28 15:51:37,271 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:51:37,272 - DEBUG - Updated hr_original_label to 88.76 bpm
+2024-12-28 15:51:37,272 - DEBUG - Updated hrv_original_label to 0.01 s
+2024-12-28 15:51:37,272 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:51:37,272 - DEBUG - Updated pp_original_label to 53.75 mmHg
+2024-12-28 15:51:37,272 - DEBUG - Updated hr_filtered_label to 29.53 bpm
+2024-12-28 15:51:37,272 - DEBUG - Updated hrv_filtered_label to N/A
+2024-12-28 15:51:37,272 - DEBUG - Updated sqi_filtered_label to 0.96
+2024-12-28 15:51:37,272 - DEBUG - Updated pp_filtered_label to 69.58 mmHg
+2024-12-28 15:51:38,642 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 15:51:38,643 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpc9u7gxcg.html
+2024-12-28 15:51:49,485 - INFO - Applying new analysis parameters.
+2024-12-28 15:51:49,486 - INFO - Filter strategy set to Butterworth.
+2024-12-28 15:51:49,486 - DEBUG - Butterworth bandpass filter applied successfully.
+2024-12-28 15:51:49,486 - INFO - ButterworthFilter applied successfully.
+2024-12-28 15:51:49,487 - INFO - Detected 5 original peaks, 2 filtered peaks.
+2024-12-28 15:51:49,487 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:51:49,514 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:51:49,528 - DEBUG - Generating Histogram plot.
+2024-12-28 15:51:49,552 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:51:49,581 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 15:51:49,582 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmposfu5fzu.html
+2024-12-28 15:51:49,583 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:51:49,583 - DEBUG - Updated hr_original_label to 88.76 bpm
+2024-12-28 15:51:49,584 - DEBUG - Updated hrv_original_label to 0.01 s
+2024-12-28 15:51:49,584 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:51:49,584 - DEBUG - Updated pp_original_label to 53.75 mmHg
+2024-12-28 15:51:49,584 - DEBUG - Updated hr_filtered_label to 29.53 bpm
+2024-12-28 15:51:49,584 - DEBUG - Updated hrv_filtered_label to N/A
+2024-12-28 15:51:49,584 - DEBUG - Updated sqi_filtered_label to 0.96
+2024-12-28 15:51:49,584 - DEBUG - Updated pp_filtered_label to 69.58 mmHg
+2024-12-28 15:51:51,110 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 15:51:51,111 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpjm6ew8wy.html
+2024-12-28 15:51:53,662 - INFO - Application is closing. Cleaning up temporary files.
+2024-12-28 15:51:53,663 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp81bx11z7.html
+2024-12-28 15:51:53,663 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmposfu5fzu.html
+2024-12-28 15:53:18,595 - INFO - Logging is set up.
+2024-12-28 15:53:18,595 - INFO - Application started.
+2024-12-28 15:53:18,718 - DEBUG - Applied stylesheet.
+2024-12-28 15:53:21,548 - INFO - Attempting to load record: p09/p099982/3001360_0001
+2024-12-28 15:53:21,551 - INFO - Record p09/p099982/3001360_0001 loaded successfully.
+2024-12-28 15:53:21,551 - INFO - Record 'p09/p099982/3001360_0001' loaded successfully.
+2024-12-28 15:53:21,552 - INFO - Value range filter applied successfully.
+2024-12-28 15:53:21,552 - INFO - Filter strategy set to Butterworth.
+2024-12-28 15:53:21,552 - DEBUG - Butterworth bandpass filter applied successfully.
+2024-12-28 15:53:21,552 - INFO - ButterworthFilter applied successfully.
+2024-12-28 15:53:21,553 - INFO - Detected 5 original peaks, 2 filtered peaks.
+2024-12-28 15:53:21,553 - INFO - Peak detection completed successfully.
+2024-12-28 15:53:21,553 - INFO - Metrics calculation completed successfully.
+2024-12-28 15:53:21,553 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:53:22,254 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:53:22,286 - DEBUG - Generating Histogram plot.
+2024-12-28 15:53:22,331 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:53:22,380 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 15:53:22,386 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmprrb_swyo.html
+2024-12-28 15:53:22,388 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:53:22,388 - DEBUG - Updated hr_original_label to 88.76 bpm
+2024-12-28 15:53:22,388 - DEBUG - Updated hrv_original_label to 0.01 s
+2024-12-28 15:53:22,388 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:53:22,388 - DEBUG - Updated pp_original_label to 53.75 mmHg
+2024-12-28 15:53:22,388 - DEBUG - Updated hr_filtered_label to 29.53 bpm
+2024-12-28 15:53:22,388 - DEBUG - Updated hrv_filtered_label to N/A
+2024-12-28 15:53:22,388 - DEBUG - Updated sqi_filtered_label to 0.96
+2024-12-28 15:53:22,388 - DEBUG - Updated pp_filtered_label to 69.58 mmHg
+2024-12-28 15:53:23,947 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 15:53:23,954 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpd0j1_tzm.html
+2024-12-28 15:53:41,268 - INFO - Window Duration set to 1 minutes.
+2024-12-28 15:53:41,484 - INFO - Window Duration set to 10 minutes.
+2024-12-28 15:53:48,541 - INFO - Attempting to load record: p09/p099982/3001360_0002
+2024-12-28 15:53:48,543 - INFO - Record p09/p099982/3001360_0002 loaded successfully.
+2024-12-28 15:53:48,543 - INFO - Record 'p09/p099982/3001360_0002' loaded successfully.
+2024-12-28 15:53:48,543 - INFO - Value range filter applied successfully.
+2024-12-28 15:53:48,543 - INFO - Filter strategy set to Butterworth.
+2024-12-28 15:53:48,544 - DEBUG - Butterworth bandpass filter applied successfully.
+2024-12-28 15:53:48,544 - INFO - ButterworthFilter applied successfully.
+2024-12-28 15:53:48,544 - INFO - Detected 31 original peaks, 24 filtered peaks.
+2024-12-28 15:53:48,544 - INFO - Peak detection completed successfully.
+2024-12-28 15:53:48,545 - INFO - Metrics calculation completed successfully.
+2024-12-28 15:53:48,545 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:53:48,590 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:53:48,621 - DEBUG - Generating Histogram plot.
+2024-12-28 15:53:48,662 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:53:48,706 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 15:53:48,714 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpxpwxvkp6.html
+2024-12-28 15:53:48,715 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:53:48,716 - DEBUG - Updated hr_original_label to 84.38 bpm
+2024-12-28 15:53:48,716 - DEBUG - Updated hrv_original_label to 0.36 s
+2024-12-28 15:53:48,716 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:53:48,716 - DEBUG - Updated pp_original_label to 60.08 mmHg
+2024-12-28 15:53:48,716 - DEBUG - Updated hr_filtered_label to 71.81 bpm
+2024-12-28 15:53:48,716 - DEBUG - Updated hrv_filtered_label to 0.74 s
+2024-12-28 15:53:48,716 - DEBUG - Updated sqi_filtered_label to 0.97
+2024-12-28 15:53:48,716 - DEBUG - Updated pp_filtered_label to 58.98 mmHg
+2024-12-28 15:53:55,895 - INFO - Applying new analysis parameters.
+2024-12-28 15:53:55,896 - INFO - Filter strategy set to Butterworth.
+2024-12-28 15:53:55,896 - DEBUG - Butterworth bandpass filter applied successfully.
+2024-12-28 15:53:55,896 - INFO - ButterworthFilter applied successfully.
+2024-12-28 15:53:55,897 - INFO - Detected 31 original peaks, 24 filtered peaks.
+2024-12-28 15:53:55,897 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:53:55,943 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:53:55,973 - DEBUG - Generating Histogram plot.
+2024-12-28 15:53:56,014 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:53:56,057 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 15:53:56,066 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpajg8ttv4.html
+2024-12-28 15:53:56,067 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:53:56,068 - DEBUG - Updated hr_original_label to 84.38 bpm
+2024-12-28 15:53:56,068 - DEBUG - Updated hrv_original_label to 0.36 s
+2024-12-28 15:53:56,068 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:53:56,068 - DEBUG - Updated pp_original_label to 60.08 mmHg
+2024-12-28 15:53:56,068 - DEBUG - Updated hr_filtered_label to 71.81 bpm
+2024-12-28 15:53:56,068 - DEBUG - Updated hrv_filtered_label to 0.74 s
+2024-12-28 15:53:56,068 - DEBUG - Updated sqi_filtered_label to 0.97
+2024-12-28 15:53:56,068 - DEBUG - Updated pp_filtered_label to 58.98 mmHg
+2024-12-28 15:53:57,166 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 15:53:57,172 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmphwxes9rl.html
+2024-12-28 15:54:03,108 - INFO - Window Duration set to 5 minutes.
+2024-12-28 15:54:06,565 - INFO - Window Duration set to 1 minutes.
+2024-12-28 15:54:06,670 - INFO - Window Duration set to 10 minutes.
+2024-12-28 15:54:09,550 - INFO - Window Duration set to 1 minutes.
+2024-12-28 15:54:09,834 - INFO - Window Duration set to 11 minutes.
+2024-12-28 15:54:11,531 - INFO - Window Duration set to 1 minutes.
+2024-12-28 15:54:11,695 - INFO - Window Duration set to 10 minutes.
+2024-12-28 15:54:12,758 - INFO - Applying new analysis parameters.
+2024-12-28 15:54:12,758 - INFO - Filter strategy set to Butterworth.
+2024-12-28 15:54:12,759 - DEBUG - Butterworth bandpass filter applied successfully.
+2024-12-28 15:54:12,759 - INFO - ButterworthFilter applied successfully.
+2024-12-28 15:54:12,759 - INFO - Detected 31 original peaks, 24 filtered peaks.
+2024-12-28 15:54:12,760 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:54:12,805 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:54:12,836 - DEBUG - Generating Histogram plot.
+2024-12-28 15:54:12,877 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:54:12,923 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 15:54:12,933 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmphoseubjn.html
+2024-12-28 15:54:12,934 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:54:12,934 - DEBUG - Updated hr_original_label to 84.38 bpm
+2024-12-28 15:54:12,934 - DEBUG - Updated hrv_original_label to 0.36 s
+2024-12-28 15:54:12,934 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:54:12,935 - DEBUG - Updated pp_original_label to 60.08 mmHg
+2024-12-28 15:54:12,935 - DEBUG - Updated hr_filtered_label to 71.81 bpm
+2024-12-28 15:54:12,935 - DEBUG - Updated hrv_filtered_label to 0.74 s
+2024-12-28 15:54:12,935 - DEBUG - Updated sqi_filtered_label to 0.97
+2024-12-28 15:54:12,935 - DEBUG - Updated pp_filtered_label to 58.98 mmHg
+2024-12-28 15:54:14,271 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 15:54:14,278 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp9b1718kk.html
+2024-12-28 15:54:17,958 - INFO - Window Duration set to 1 minutes.
+2024-12-28 15:54:18,220 - INFO - Window Duration set to 11 minutes.
+2024-12-28 15:54:24,572 - INFO - Window Duration set to 1 minutes.
+2024-12-28 15:54:27,776 - INFO - Window Duration set to 11 minutes.
+2024-12-28 15:54:29,065 - INFO - Applying new analysis parameters.
+2024-12-28 15:54:29,066 - INFO - Filter strategy set to Butterworth.
+2024-12-28 15:54:29,066 - DEBUG - Butterworth bandpass filter applied successfully.
+2024-12-28 15:54:29,066 - INFO - ButterworthFilter applied successfully.
+2024-12-28 15:54:29,067 - INFO - Detected 31 original peaks, 24 filtered peaks.
+2024-12-28 15:54:29,067 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:54:29,112 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:54:29,142 - DEBUG - Generating Histogram plot.
+2024-12-28 15:54:29,183 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:54:29,226 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 15:54:29,235 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpokyq85kr.html
+2024-12-28 15:54:29,236 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:54:29,236 - DEBUG - Updated hr_original_label to 84.38 bpm
+2024-12-28 15:54:29,236 - DEBUG - Updated hrv_original_label to 0.36 s
+2024-12-28 15:54:29,236 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:54:29,236 - DEBUG - Updated pp_original_label to 60.08 mmHg
+2024-12-28 15:54:29,236 - DEBUG - Updated hr_filtered_label to 71.81 bpm
+2024-12-28 15:54:29,236 - DEBUG - Updated hrv_filtered_label to 0.74 s
+2024-12-28 15:54:29,237 - DEBUG - Updated sqi_filtered_label to 0.97
+2024-12-28 15:54:29,237 - DEBUG - Updated pp_filtered_label to 58.98 mmHg
+2024-12-28 15:54:30,579 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 15:54:30,585 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpxfzt8kku.html
+2024-12-28 15:54:33,955 - INFO - Selected plot type: Histogram
+2024-12-28 15:54:33,962 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp_h62u297.html
+2024-12-28 15:54:37,109 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 15:54:37,116 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpq0df_4mv.html
+2024-12-28 15:54:41,257 - INFO - Selected plot type: Frequency-Domain Analysis
+2024-12-28 15:54:41,265 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpuumm8dze.html
+2024-12-28 15:54:52,880 - INFO - Applying new analysis parameters.
+2024-12-28 15:54:52,881 - INFO - Filter strategy set to Running Mean.
+2024-12-28 15:54:52,881 - DEBUG - Running Mean filter applied successfully.
+2024-12-28 15:54:52,881 - INFO - RunningMeanFilter applied successfully.
+2024-12-28 15:54:52,881 - INFO - Detected 31 original peaks, 25 filtered peaks.
+2024-12-28 15:54:52,882 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:54:52,926 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:54:52,957 - DEBUG - Generating Histogram plot.
+2024-12-28 15:54:52,997 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:54:53,036 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 15:54:53,044 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpirkk__9r.html
+2024-12-28 15:54:53,045 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:54:53,045 - DEBUG - Updated hr_original_label to 84.38 bpm
+2024-12-28 15:54:53,045 - DEBUG - Updated hrv_original_label to 0.36 s
+2024-12-28 15:54:53,045 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:54:53,045 - DEBUG - Updated pp_original_label to 60.08 mmHg
+2024-12-28 15:54:53,045 - DEBUG - Updated hr_filtered_label to 75.19 bpm
+2024-12-28 15:54:53,045 - DEBUG - Updated hrv_filtered_label to 0.69 s
+2024-12-28 15:54:53,045 - DEBUG - Updated sqi_filtered_label to 0.99
+2024-12-28 15:54:53,045 - DEBUG - Updated pp_filtered_label to 71.27 mmHg
+2024-12-28 15:54:54,473 - INFO - Selected plot type: Frequency-Domain Analysis
+2024-12-28 15:54:54,479 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpo_edxjo2.html
+2024-12-28 15:54:59,123 - INFO - Applying new analysis parameters.
+2024-12-28 15:54:59,123 - INFO - Filter strategy set to Gaussian.
+2024-12-28 15:54:59,124 - DEBUG - Gaussian filter applied successfully.
+2024-12-28 15:54:59,124 - INFO - GaussianFilter applied successfully.
+2024-12-28 15:54:59,124 - INFO - Detected 31 original peaks, 1 filtered peaks.
+2024-12-28 15:54:59,125 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:54:59,170 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:54:59,201 - DEBUG - Generating Histogram plot.
+2024-12-28 15:54:59,241 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:54:59,274 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 15:54:59,283 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpxiw2c2io.html
+2024-12-28 15:54:59,284 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:54:59,284 - DEBUG - Updated hr_original_label to 84.38 bpm
+2024-12-28 15:54:59,284 - DEBUG - Updated hrv_original_label to 0.36 s
+2024-12-28 15:54:59,284 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:54:59,284 - DEBUG - Updated pp_original_label to 60.08 mmHg
+2024-12-28 15:54:59,284 - DEBUG - Updated hr_filtered_label to N/A
+2024-12-28 15:54:59,284 - DEBUG - Updated hrv_filtered_label to N/A
+2024-12-28 15:54:59,284 - DEBUG - Updated sqi_filtered_label to 1.00
+2024-12-28 15:54:59,285 - DEBUG - Updated pp_filtered_label to 16.23 mmHg
+2024-12-28 15:55:00,547 - INFO - Selected plot type: Frequency-Domain Analysis
+2024-12-28 15:55:00,554 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpx62qihmy.html
+2024-12-28 15:55:04,648 - INFO - Window Duration set to 1 minutes.
+2024-12-28 15:55:08,158 - INFO - Applying new analysis parameters.
+2024-12-28 15:55:08,158 - INFO - Filter strategy set to Gaussian.
+2024-12-28 15:55:08,159 - DEBUG - Gaussian filter applied successfully.
+2024-12-28 15:55:08,159 - INFO - GaussianFilter applied successfully.
+2024-12-28 15:55:08,159 - INFO - Detected 31 original peaks, 1 filtered peaks.
+2024-12-28 15:55:08,160 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:55:08,204 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:55:08,235 - DEBUG - Generating Histogram plot.
+2024-12-28 15:55:08,274 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:55:08,308 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 15:55:08,316 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpo_820hde.html
+2024-12-28 15:55:08,317 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:55:08,317 - DEBUG - Updated hr_original_label to 84.38 bpm
+2024-12-28 15:55:08,317 - DEBUG - Updated hrv_original_label to 0.36 s
+2024-12-28 15:55:08,317 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:55:08,317 - DEBUG - Updated pp_original_label to 60.08 mmHg
+2024-12-28 15:55:08,317 - DEBUG - Updated hr_filtered_label to N/A
+2024-12-28 15:55:08,317 - DEBUG - Updated hrv_filtered_label to N/A
+2024-12-28 15:55:08,317 - DEBUG - Updated sqi_filtered_label to 1.00
+2024-12-28 15:55:08,317 - DEBUG - Updated pp_filtered_label to 16.23 mmHg
+2024-12-28 15:55:10,213 - INFO - Selected plot type: Frequency-Domain Analysis
+2024-12-28 15:55:10,220 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpecu_bdk4.html
+2024-12-28 15:55:12,261 - INFO - Window Duration set to 10 minutes.
+2024-12-28 15:55:13,233 - INFO - Applying new analysis parameters.
+2024-12-28 15:55:13,233 - INFO - Filter strategy set to Gaussian.
+2024-12-28 15:55:13,234 - DEBUG - Gaussian filter applied successfully.
+2024-12-28 15:55:13,234 - INFO - GaussianFilter applied successfully.
+2024-12-28 15:55:13,234 - INFO - Detected 31 original peaks, 1 filtered peaks.
+2024-12-28 15:55:13,234 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:55:13,278 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:55:13,308 - DEBUG - Generating Histogram plot.
+2024-12-28 15:55:13,349 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:55:13,382 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 15:55:13,390 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpx8inbobq.html
+2024-12-28 15:55:13,391 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:55:13,391 - DEBUG - Updated hr_original_label to 84.38 bpm
+2024-12-28 15:55:13,391 - DEBUG - Updated hrv_original_label to 0.36 s
+2024-12-28 15:55:13,391 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:55:13,391 - DEBUG - Updated pp_original_label to 60.08 mmHg
+2024-12-28 15:55:13,392 - DEBUG - Updated hr_filtered_label to N/A
+2024-12-28 15:55:13,392 - DEBUG - Updated hrv_filtered_label to N/A
+2024-12-28 15:55:13,392 - DEBUG - Updated sqi_filtered_label to 1.00
+2024-12-28 15:55:13,392 - DEBUG - Updated pp_filtered_label to 16.23 mmHg
+2024-12-28 15:55:14,508 - INFO - Selected plot type: Frequency-Domain Analysis
+2024-12-28 15:55:14,516 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpdknl_mhp.html
+2024-12-28 15:55:17,711 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 15:55:17,717 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpzu2p1hiz.html
+2024-12-28 15:55:30,690 - INFO - Applying new analysis parameters.
+2024-12-28 15:55:30,690 - INFO - Filter strategy set to Gaussian.
+2024-12-28 15:55:30,692 - DEBUG - Gaussian filter applied successfully.
+2024-12-28 15:55:30,692 - INFO - GaussianFilter applied successfully.
+2024-12-28 15:55:30,692 - INFO - Detected 31 original peaks, 1 filtered peaks.
+2024-12-28 15:55:30,693 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:55:30,738 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:55:30,770 - DEBUG - Generating Histogram plot.
+2024-12-28 15:55:30,811 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:55:30,844 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 15:55:30,852 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpc6g3_qup.html
+2024-12-28 15:55:30,853 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:55:30,853 - DEBUG - Updated hr_original_label to 84.38 bpm
+2024-12-28 15:55:30,853 - DEBUG - Updated hrv_original_label to 0.36 s
+2024-12-28 15:55:30,853 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:55:30,853 - DEBUG - Updated pp_original_label to 60.08 mmHg
+2024-12-28 15:55:30,853 - DEBUG - Updated hr_filtered_label to N/A
+2024-12-28 15:55:30,854 - DEBUG - Updated hrv_filtered_label to N/A
+2024-12-28 15:55:30,854 - DEBUG - Updated sqi_filtered_label to 1.00
+2024-12-28 15:55:30,854 - DEBUG - Updated pp_filtered_label to 14.10 mmHg
+2024-12-28 15:55:32,435 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 15:55:32,442 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpslxgak04.html
+2024-12-28 15:55:37,842 - INFO - Applying new analysis parameters.
+2024-12-28 15:55:37,842 - INFO - Filter strategy set to Gaussian.
+2024-12-28 15:55:37,847 - DEBUG - Gaussian filter applied successfully.
+2024-12-28 15:55:37,847 - INFO - GaussianFilter applied successfully.
+2024-12-28 15:55:37,847 - INFO - Detected 31 original peaks, 0 filtered peaks.
+2024-12-28 15:55:37,848 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:55:37,892 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:55:37,922 - DEBUG - Generating Histogram plot.
+2024-12-28 15:55:38,025 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:55:38,058 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 15:55:38,067 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpxacd_5ym.html
+2024-12-28 15:55:38,068 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:55:38,068 - DEBUG - Updated hr_original_label to 84.38 bpm
+2024-12-28 15:55:38,068 - DEBUG - Updated hrv_original_label to 0.36 s
+2024-12-28 15:55:38,068 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:55:38,068 - DEBUG - Updated pp_original_label to 60.08 mmHg
+2024-12-28 15:55:38,068 - DEBUG - Updated hr_filtered_label to N/A
+2024-12-28 15:55:38,068 - DEBUG - Updated hrv_filtered_label to N/A
+2024-12-28 15:55:38,068 - DEBUG - Updated sqi_filtered_label to 1.00
+2024-12-28 15:55:38,068 - DEBUG - Updated pp_filtered_label to N/A
+2024-12-28 15:55:39,477 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 15:55:39,484 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp_4x904zc.html
+2024-12-28 15:55:48,921 - INFO - Window Duration set to 5 minutes.
+2024-12-28 15:55:50,200 - INFO - Applying new analysis parameters.
+2024-12-28 15:55:50,200 - INFO - Filter strategy set to Gaussian.
+2024-12-28 15:55:50,202 - DEBUG - Gaussian filter applied successfully.
+2024-12-28 15:55:50,202 - INFO - GaussianFilter applied successfully.
+2024-12-28 15:55:50,203 - INFO - Detected 31 original peaks, 1 filtered peaks.
+2024-12-28 15:55:50,203 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:55:50,248 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:55:50,280 - DEBUG - Generating Histogram plot.
+2024-12-28 15:55:50,321 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:55:50,357 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 15:55:50,366 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpf476ij4s.html
+2024-12-28 15:55:50,367 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:55:50,367 - DEBUG - Updated hr_original_label to 84.38 bpm
+2024-12-28 15:55:50,367 - DEBUG - Updated hrv_original_label to 0.36 s
+2024-12-28 15:55:50,367 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:55:50,367 - DEBUG - Updated pp_original_label to 60.08 mmHg
+2024-12-28 15:55:50,367 - DEBUG - Updated hr_filtered_label to N/A
+2024-12-28 15:55:50,367 - DEBUG - Updated hrv_filtered_label to N/A
+2024-12-28 15:55:50,367 - DEBUG - Updated sqi_filtered_label to 1.00
+2024-12-28 15:55:50,367 - DEBUG - Updated pp_filtered_label to 14.10 mmHg
+2024-12-28 15:55:51,747 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 15:55:51,754 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpxx930iex.html
+2024-12-28 15:55:55,771 - INFO - Applying new analysis parameters.
+2024-12-28 15:55:55,771 - INFO - Filter strategy set to Gaussian.
+2024-12-28 15:55:55,772 - DEBUG - Gaussian filter applied successfully.
+2024-12-28 15:55:55,772 - INFO - GaussianFilter applied successfully.
+2024-12-28 15:55:55,773 - INFO - Detected 31 original peaks, 1 filtered peaks.
+2024-12-28 15:55:55,773 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:55:55,820 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:55:55,851 - DEBUG - Generating Histogram plot.
+2024-12-28 15:55:55,893 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:55:55,927 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 15:55:55,936 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp0nvgfat6.html
+2024-12-28 15:55:55,938 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:55:55,938 - DEBUG - Updated hr_original_label to 84.38 bpm
+2024-12-28 15:55:55,938 - DEBUG - Updated hrv_original_label to 0.36 s
+2024-12-28 15:55:55,938 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:55:55,938 - DEBUG - Updated pp_original_label to 60.08 mmHg
+2024-12-28 15:55:55,938 - DEBUG - Updated hr_filtered_label to N/A
+2024-12-28 15:55:55,938 - DEBUG - Updated hrv_filtered_label to N/A
+2024-12-28 15:55:55,938 - DEBUG - Updated sqi_filtered_label to 1.00
+2024-12-28 15:55:55,938 - DEBUG - Updated pp_filtered_label to 14.10 mmHg
+2024-12-28 15:55:57,087 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 15:55:57,093 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpcxfrqret.html
+2024-12-28 15:55:59,634 - INFO - Applying new analysis parameters.
+2024-12-28 15:55:59,634 - INFO - Filter strategy set to Gaussian.
+2024-12-28 15:55:59,635 - DEBUG - Gaussian filter applied successfully.
+2024-12-28 15:55:59,635 - INFO - GaussianFilter applied successfully.
+2024-12-28 15:55:59,636 - INFO - Detected 31 original peaks, 1 filtered peaks.
+2024-12-28 15:55:59,636 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:55:59,682 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:55:59,714 - DEBUG - Generating Histogram plot.
+2024-12-28 15:55:59,754 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:55:59,787 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 15:55:59,795 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpjkwqvdb0.html
+2024-12-28 15:55:59,796 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:55:59,796 - DEBUG - Updated hr_original_label to 84.38 bpm
+2024-12-28 15:55:59,796 - DEBUG - Updated hrv_original_label to 0.36 s
+2024-12-28 15:55:59,797 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:55:59,797 - DEBUG - Updated pp_original_label to 60.08 mmHg
+2024-12-28 15:55:59,797 - DEBUG - Updated hr_filtered_label to N/A
+2024-12-28 15:55:59,797 - DEBUG - Updated hrv_filtered_label to N/A
+2024-12-28 15:55:59,797 - DEBUG - Updated sqi_filtered_label to 1.00
+2024-12-28 15:55:59,797 - DEBUG - Updated pp_filtered_label to 14.10 mmHg
+2024-12-28 15:56:01,011 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 15:56:01,018 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpp3ya9j2z.html
+2024-12-28 15:56:02,790 - INFO - Window Duration set to 1 minutes.
+2024-12-28 15:56:08,032 - INFO - Applying new analysis parameters.
+2024-12-28 15:56:08,032 - INFO - Filter strategy set to Gaussian.
+2024-12-28 15:56:08,035 - DEBUG - Gaussian filter applied successfully.
+2024-12-28 15:56:08,035 - INFO - GaussianFilter applied successfully.
+2024-12-28 15:56:08,035 - INFO - Detected 31 original peaks, 0 filtered peaks.
+2024-12-28 15:56:08,036 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:56:08,081 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:56:08,112 - DEBUG - Generating Histogram plot.
+2024-12-28 15:56:08,152 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:56:08,184 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 15:56:08,193 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpk50ipdgl.html
+2024-12-28 15:56:08,194 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:56:08,194 - DEBUG - Updated hr_original_label to 84.38 bpm
+2024-12-28 15:56:08,194 - DEBUG - Updated hrv_original_label to 0.36 s
+2024-12-28 15:56:08,194 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:56:08,194 - DEBUG - Updated pp_original_label to 60.08 mmHg
+2024-12-28 15:56:08,194 - DEBUG - Updated hr_filtered_label to N/A
+2024-12-28 15:56:08,194 - DEBUG - Updated hrv_filtered_label to N/A
+2024-12-28 15:56:08,194 - DEBUG - Updated sqi_filtered_label to 1.00
+2024-12-28 15:56:08,194 - DEBUG - Updated pp_filtered_label to N/A
+2024-12-28 15:56:09,569 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 15:56:09,576 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp13a1wx0k.html
+2024-12-28 15:56:19,081 - INFO - Applying new analysis parameters.
+2024-12-28 15:56:19,081 - INFO - Filter strategy set to Gaussian.
+2024-12-28 15:56:19,084 - DEBUG - Gaussian filter applied successfully.
+2024-12-28 15:56:19,084 - INFO - GaussianFilter applied successfully.
+2024-12-28 15:56:19,085 - INFO - Detected 31 original peaks, 0 filtered peaks.
+2024-12-28 15:56:19,086 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:56:19,130 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:56:19,160 - DEBUG - Generating Histogram plot.
+2024-12-28 15:56:19,201 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:56:19,235 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 15:56:19,244 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp988amrpe.html
+2024-12-28 15:56:19,245 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:56:19,245 - DEBUG - Updated hr_original_label to 84.38 bpm
+2024-12-28 15:56:19,245 - DEBUG - Updated hrv_original_label to 0.36 s
+2024-12-28 15:56:19,245 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:56:19,245 - DEBUG - Updated pp_original_label to 60.08 mmHg
+2024-12-28 15:56:19,245 - DEBUG - Updated hr_filtered_label to N/A
+2024-12-28 15:56:19,245 - DEBUG - Updated hrv_filtered_label to N/A
+2024-12-28 15:56:19,245 - DEBUG - Updated sqi_filtered_label to 1.00
+2024-12-28 15:56:19,245 - DEBUG - Updated pp_filtered_label to N/A
+2024-12-28 15:56:20,636 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 15:56:20,642 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpckk5i289.html
+2024-12-28 15:56:26,993 - INFO - Window Duration set to 10 minutes.
+2024-12-28 15:56:29,399 - INFO - Applying new analysis parameters.
+2024-12-28 15:56:29,400 - INFO - Filter strategy set to Gaussian.
+2024-12-28 15:56:29,403 - DEBUG - Gaussian filter applied successfully.
+2024-12-28 15:56:29,403 - INFO - GaussianFilter applied successfully.
+2024-12-28 15:56:29,403 - INFO - Detected 31 original peaks, 0 filtered peaks.
+2024-12-28 15:56:29,404 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:56:29,456 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:56:29,492 - DEBUG - Generating Histogram plot.
+2024-12-28 15:56:29,534 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:56:29,571 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 15:56:29,579 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp5mh_qmwp.html
+2024-12-28 15:56:29,580 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:56:29,580 - DEBUG - Updated hr_original_label to 84.38 bpm
+2024-12-28 15:56:29,580 - DEBUG - Updated hrv_original_label to 0.36 s
+2024-12-28 15:56:29,580 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:56:29,580 - DEBUG - Updated pp_original_label to 60.08 mmHg
+2024-12-28 15:56:29,581 - DEBUG - Updated hr_filtered_label to N/A
+2024-12-28 15:56:29,581 - DEBUG - Updated hrv_filtered_label to N/A
+2024-12-28 15:56:29,581 - DEBUG - Updated sqi_filtered_label to 1.00
+2024-12-28 15:56:29,581 - DEBUG - Updated pp_filtered_label to N/A
+2024-12-28 15:56:30,819 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 15:56:30,826 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp9b6_2f_1.html
+2024-12-28 15:56:41,711 - INFO - Applying new analysis parameters.
+2024-12-28 15:56:41,712 - INFO - Filter strategy set to Running Mean.
+2024-12-28 15:56:41,712 - DEBUG - Running Mean filter applied successfully.
+2024-12-28 15:56:41,712 - INFO - RunningMeanFilter applied successfully.
+2024-12-28 15:56:41,712 - INFO - Detected 31 original peaks, 25 filtered peaks.
+2024-12-28 15:56:41,713 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:56:41,758 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:56:41,789 - DEBUG - Generating Histogram plot.
+2024-12-28 15:56:41,830 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:56:41,868 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 15:56:41,878 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpo_nmt_30.html
+2024-12-28 15:56:41,879 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:56:41,879 - DEBUG - Updated hr_original_label to 84.38 bpm
+2024-12-28 15:56:41,879 - DEBUG - Updated hrv_original_label to 0.36 s
+2024-12-28 15:56:41,879 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:56:41,880 - DEBUG - Updated pp_original_label to 60.08 mmHg
+2024-12-28 15:56:41,880 - DEBUG - Updated hr_filtered_label to 75.19 bpm
+2024-12-28 15:56:41,880 - DEBUG - Updated hrv_filtered_label to 0.69 s
+2024-12-28 15:56:41,880 - DEBUG - Updated sqi_filtered_label to 0.99
+2024-12-28 15:56:41,880 - DEBUG - Updated pp_filtered_label to 71.27 mmHg
+2024-12-28 15:56:43,806 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 15:56:43,812 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpgb96jyc_.html
+2024-12-28 15:57:21,640 - INFO - Window Duration set to 1 minutes.
+2024-12-28 15:57:31,196 - INFO - Window Duration set to 2 minutes.
+2024-12-28 15:57:35,277 - INFO - Window Duration set to 1 minutes.
+2024-12-28 15:57:40,369 - INFO - Window Duration set to 2 minutes.
+2024-12-28 15:57:41,052 - INFO - Window Duration set to 24 minutes.
+2024-12-28 15:57:41,479 - INFO - Window Duration set to 24 minutes.
+2024-12-28 15:57:45,605 - INFO - Window Duration set to 1 minutes.
+2024-12-28 15:57:46,140 - INFO - Applying new analysis parameters.
+2024-12-28 15:57:46,140 - INFO - Filter strategy set to Running Mean.
+2024-12-28 15:57:46,140 - DEBUG - Running Mean filter applied successfully.
+2024-12-28 15:57:46,142 - INFO - RunningMeanFilter applied successfully.
+2024-12-28 15:57:46,142 - INFO - Detected 31 original peaks, 25 filtered peaks.
+2024-12-28 15:57:46,142 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:57:46,187 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:57:46,217 - DEBUG - Generating Histogram plot.
+2024-12-28 15:57:46,257 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:57:46,296 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 15:57:46,305 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpiyx54yq_.html
+2024-12-28 15:57:46,306 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:57:46,307 - DEBUG - Updated hr_original_label to 84.38 bpm
+2024-12-28 15:57:46,307 - DEBUG - Updated hrv_original_label to 0.36 s
+2024-12-28 15:57:46,307 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:57:46,307 - DEBUG - Updated pp_original_label to 60.08 mmHg
+2024-12-28 15:57:46,307 - DEBUG - Updated hr_filtered_label to 75.19 bpm
+2024-12-28 15:57:46,307 - DEBUG - Updated hrv_filtered_label to 0.69 s
+2024-12-28 15:57:46,307 - DEBUG - Updated sqi_filtered_label to 0.99
+2024-12-28 15:57:46,307 - DEBUG - Updated pp_filtered_label to 71.27 mmHg
+2024-12-28 15:57:47,672 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 15:57:47,679 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpnizpihaz.html
+2024-12-28 15:59:54,776 - INFO - Applying new analysis parameters.
+2024-12-28 15:59:54,777 - INFO - Filter strategy set to Running Mean.
+2024-12-28 15:59:54,777 - DEBUG - Running Mean filter applied successfully.
+2024-12-28 15:59:54,777 - INFO - RunningMeanFilter applied successfully.
+2024-12-28 15:59:54,777 - INFO - Detected 31 original peaks, 25 filtered peaks.
+2024-12-28 15:59:54,778 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 15:59:54,824 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 15:59:54,857 - DEBUG - Generating Histogram plot.
+2024-12-28 15:59:54,899 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 15:59:54,938 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 15:59:54,959 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpm2roqyyh.html
+2024-12-28 15:59:54,960 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 15:59:54,960 - DEBUG - Updated hr_original_label to 84.38 bpm
+2024-12-28 15:59:54,960 - DEBUG - Updated hrv_original_label to 0.36 s
+2024-12-28 15:59:54,960 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 15:59:54,960 - DEBUG - Updated pp_original_label to 60.08 mmHg
+2024-12-28 15:59:54,960 - DEBUG - Updated hr_filtered_label to 75.19 bpm
+2024-12-28 15:59:54,960 - DEBUG - Updated hrv_filtered_label to 0.69 s
+2024-12-28 15:59:54,960 - DEBUG - Updated sqi_filtered_label to 0.99
+2024-12-28 15:59:54,960 - DEBUG - Updated pp_filtered_label to 71.27 mmHg
+2024-12-28 15:59:56,134 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 15:59:56,140 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpoimbn6pk.html
+2024-12-28 15:59:58,187 - INFO - Selected plot type: Histogram
+2024-12-28 15:59:58,193 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmplcwdto22.html
+2024-12-28 16:00:05,124 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 16:00:05,130 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpyulgj3g6.html
+2024-12-28 16:00:16,196 - INFO - Applying new analysis parameters.
+2024-12-28 16:00:16,196 - INFO - Filter strategy set to Gaussian.
+2024-12-28 16:00:16,199 - DEBUG - Gaussian filter applied successfully.
+2024-12-28 16:00:16,199 - INFO - GaussianFilter applied successfully.
+2024-12-28 16:00:16,200 - INFO - Detected 31 original peaks, 0 filtered peaks.
+2024-12-28 16:00:16,200 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:00:16,245 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 16:00:16,275 - DEBUG - Generating Histogram plot.
+2024-12-28 16:00:16,318 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:00:16,352 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 16:00:16,361 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmprx8n3al2.html
+2024-12-28 16:00:16,362 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 16:00:16,363 - DEBUG - Updated hr_original_label to 84.38 bpm
+2024-12-28 16:00:16,363 - DEBUG - Updated hrv_original_label to 0.36 s
+2024-12-28 16:00:16,363 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 16:00:16,363 - DEBUG - Updated pp_original_label to 60.08 mmHg
+2024-12-28 16:00:16,363 - DEBUG - Updated hr_filtered_label to N/A
+2024-12-28 16:00:16,363 - DEBUG - Updated hrv_filtered_label to N/A
+2024-12-28 16:00:16,363 - DEBUG - Updated sqi_filtered_label to 1.00
+2024-12-28 16:00:16,363 - DEBUG - Updated pp_filtered_label to N/A
+2024-12-28 16:00:18,138 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 16:00:18,145 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp2a_l_c1i.html
+2024-12-28 16:01:08,713 - INFO - Application is closing. Cleaning up temporary files.
+2024-12-28 16:01:08,713 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmprrb_swyo.html
+2024-12-28 16:01:08,714 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpxpwxvkp6.html
+2024-12-28 16:01:08,715 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpajg8ttv4.html
+2024-12-28 16:01:08,715 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmphoseubjn.html
+2024-12-28 16:01:08,716 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpokyq85kr.html
+2024-12-28 16:01:08,716 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpirkk__9r.html
+2024-12-28 16:01:08,717 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpxiw2c2io.html
+2024-12-28 16:01:08,718 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpo_820hde.html
+2024-12-28 16:01:08,718 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpx8inbobq.html
+2024-12-28 16:01:08,719 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpc6g3_qup.html
+2024-12-28 16:01:08,719 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpxacd_5ym.html
+2024-12-28 16:01:08,720 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpf476ij4s.html
+2024-12-28 16:01:08,721 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp0nvgfat6.html
+2024-12-28 16:01:08,721 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpjkwqvdb0.html
+2024-12-28 16:01:08,722 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpk50ipdgl.html
+2024-12-28 16:01:08,722 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp988amrpe.html
+2024-12-28 16:01:08,723 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp5mh_qmwp.html
+2024-12-28 16:01:08,723 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpo_nmt_30.html
+2024-12-28 16:01:08,724 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpiyx54yq_.html
+2024-12-28 16:01:08,725 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpm2roqyyh.html
+2024-12-28 16:01:08,725 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmprx8n3al2.html
+2024-12-28 16:01:44,655 - INFO - Logging is set up.
+2024-12-28 16:01:44,655 - INFO - Application started.
+2024-12-28 16:01:44,778 - DEBUG - Applied stylesheet.
+2024-12-28 16:01:48,165 - INFO - Attempting to load record: p09/p099982/3001360_0001
+2024-12-28 16:01:48,169 - INFO - Record p09/p099982/3001360_0001 loaded successfully.
+2024-12-28 16:01:48,169 - INFO - Record 'p09/p099982/3001360_0001' loaded successfully.
+2024-12-28 16:01:48,169 - INFO - Value range filter applied successfully.
+2024-12-28 16:01:48,169 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:01:48,170 - DEBUG - Butterworth bandpass filter applied successfully.
+2024-12-28 16:01:48,170 - INFO - ButterworthFilter applied successfully.
+2024-12-28 16:01:48,170 - INFO - Detected 5 original peaks, 2 filtered peaks.
+2024-12-28 16:01:48,170 - INFO - Peak detection completed successfully.
+2024-12-28 16:01:48,171 - INFO - Metrics calculation completed successfully.
+2024-12-28 16:01:48,171 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:01:48,908 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 16:01:48,939 - DEBUG - Generating Histogram plot.
+2024-12-28 16:01:48,985 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:01:49,034 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 16:01:49,040 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp_1sjq6iy.html
+2024-12-28 16:01:49,042 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 16:01:49,042 - DEBUG - Updated hr_original_label to 88.76 bpm
+2024-12-28 16:01:49,042 - DEBUG - Updated hrv_original_label to 0.01 s
+2024-12-28 16:01:49,042 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 16:01:49,042 - DEBUG - Updated pp_original_label to 53.75 mmHg
+2024-12-28 16:01:49,042 - DEBUG - Updated hr_filtered_label to 29.53 bpm
+2024-12-28 16:01:49,042 - DEBUG - Updated hrv_filtered_label to N/A
+2024-12-28 16:01:49,042 - DEBUG - Updated sqi_filtered_label to 0.96
+2024-12-28 16:01:49,042 - DEBUG - Updated pp_filtered_label to 69.58 mmHg
+2024-12-28 16:01:52,001 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 16:01:52,007 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpg4p350s2.html
+2024-12-28 16:02:00,608 - INFO - Window Duration manually set to 1 minutes.
+2024-12-28 16:02:00,864 - INFO - Window Duration manually set to 1 minutes.
+2024-12-28 16:02:02,496 - INFO - Applying new analysis parameters.
+2024-12-28 16:02:02,497 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:02:02,497 - DEBUG - Butterworth bandpass filter applied successfully.
+2024-12-28 16:02:02,497 - INFO - ButterworthFilter applied successfully.
+2024-12-28 16:02:02,498 - INFO - Detected 5 original peaks, 2 filtered peaks.
+2024-12-28 16:02:02,498 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:02:02,542 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 16:02:02,571 - DEBUG - Generating Histogram plot.
+2024-12-28 16:02:02,610 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:02:02,654 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 16:02:02,664 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpipfdsj6x.html
+2024-12-28 16:02:02,665 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 16:02:02,666 - DEBUG - Updated hr_original_label to 88.76 bpm
+2024-12-28 16:02:02,666 - DEBUG - Updated hrv_original_label to 0.01 s
+2024-12-28 16:02:02,666 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 16:02:02,666 - DEBUG - Updated pp_original_label to 53.75 mmHg
+2024-12-28 16:02:02,666 - DEBUG - Updated hr_filtered_label to 29.53 bpm
+2024-12-28 16:02:02,666 - DEBUG - Updated hrv_filtered_label to N/A
+2024-12-28 16:02:02,666 - DEBUG - Updated sqi_filtered_label to 0.96
+2024-12-28 16:02:02,666 - DEBUG - Updated pp_filtered_label to 69.58 mmHg
+2024-12-28 16:02:03,995 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 16:02:04,001 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpx3tf3zrt.html
+2024-12-28 16:03:01,983 - INFO - Applying new analysis parameters.
+2024-12-28 16:03:01,985 - INFO - Filter strategy set to Gaussian.
+2024-12-28 16:03:01,985 - DEBUG - Gaussian filter applied successfully.
+2024-12-28 16:03:01,985 - INFO - GaussianFilter applied successfully.
+2024-12-28 16:03:01,985 - INFO - Detected 5 original peaks, 0 filtered peaks.
+2024-12-28 16:03:01,985 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:03:02,028 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 16:03:02,056 - DEBUG - Generating Histogram plot.
+2024-12-28 16:03:02,096 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:03:02,128 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 16:03:02,137 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp9lyz3ox3.html
+2024-12-28 16:03:02,138 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 16:03:02,138 - DEBUG - Updated hr_original_label to 88.76 bpm
+2024-12-28 16:03:02,138 - DEBUG - Updated hrv_original_label to 0.01 s
+2024-12-28 16:03:02,138 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 16:03:02,138 - DEBUG - Updated pp_original_label to 53.75 mmHg
+2024-12-28 16:03:02,138 - DEBUG - Updated hr_filtered_label to N/A
+2024-12-28 16:03:02,138 - DEBUG - Updated hrv_filtered_label to N/A
+2024-12-28 16:03:02,138 - DEBUG - Updated sqi_filtered_label to 1.00
+2024-12-28 16:03:02,138 - DEBUG - Updated pp_filtered_label to N/A
+2024-12-28 16:03:03,847 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 16:03:03,855 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmporbjmtl3.html
+2024-12-28 16:06:07,646 - INFO - Applying new analysis parameters.
+2024-12-28 16:06:07,646 - INFO - Filter strategy set to Gaussian.
+2024-12-28 16:06:07,647 - DEBUG - Gaussian filter applied successfully.
+2024-12-28 16:06:07,647 - INFO - GaussianFilter applied successfully.
+2024-12-28 16:06:07,647 - INFO - Detected 5 original peaks, 0 filtered peaks.
+2024-12-28 16:06:07,648 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:06:07,696 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 16:06:07,731 - DEBUG - Generating Histogram plot.
+2024-12-28 16:06:07,791 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:06:07,843 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 16:06:07,853 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp_euwjqog.html
+2024-12-28 16:06:07,855 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 16:06:07,855 - DEBUG - Updated hr_original_label to 88.76 bpm
+2024-12-28 16:06:07,855 - DEBUG - Updated hrv_original_label to 0.01 s
+2024-12-28 16:06:07,855 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 16:06:07,855 - DEBUG - Updated pp_original_label to 53.75 mmHg
+2024-12-28 16:06:07,855 - DEBUG - Updated hr_filtered_label to N/A
+2024-12-28 16:06:07,855 - DEBUG - Updated hrv_filtered_label to N/A
+2024-12-28 16:06:07,855 - DEBUG - Updated sqi_filtered_label to 1.00
+2024-12-28 16:06:07,855 - DEBUG - Updated pp_filtered_label to N/A
+2024-12-28 16:06:09,358 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 16:06:09,364 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp9rjx_u0n.html
+2024-12-28 16:06:17,498 - INFO - Applying new analysis parameters.
+2024-12-28 16:06:17,498 - INFO - Filter strategy set to Gaussian.
+2024-12-28 16:06:17,498 - DEBUG - Gaussian filter applied successfully.
+2024-12-28 16:06:17,499 - INFO - GaussianFilter applied successfully.
+2024-12-28 16:06:17,499 - INFO - Detected 5 original peaks, 3 filtered peaks.
+2024-12-28 16:06:17,499 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:06:17,546 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 16:06:17,592 - DEBUG - Generating Histogram plot.
+2024-12-28 16:06:17,649 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:06:17,694 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 16:06:17,703 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp898sfeud.html
+2024-12-28 16:06:17,704 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 16:06:17,704 - DEBUG - Updated hr_original_label to 88.76 bpm
+2024-12-28 16:06:17,704 - DEBUG - Updated hrv_original_label to 0.01 s
+2024-12-28 16:06:17,704 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 16:06:17,704 - DEBUG - Updated pp_original_label to 53.75 mmHg
+2024-12-28 16:06:17,705 - DEBUG - Updated hr_filtered_label to 88.76 bpm
+2024-12-28 16:06:17,705 - DEBUG - Updated hrv_filtered_label to 0.01 s
+2024-12-28 16:06:17,705 - DEBUG - Updated sqi_filtered_label to 0.99
+2024-12-28 16:06:17,705 - DEBUG - Updated pp_filtered_label to 33.42 mmHg
+2024-12-28 16:06:18,904 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 16:06:18,910 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmppk5t9r1c.html
+2024-12-28 16:06:33,271 - INFO - Applying new analysis parameters.
+2024-12-28 16:06:33,272 - INFO - Filter strategy set to Gaussian.
+2024-12-28 16:06:33,272 - DEBUG - Gaussian filter applied successfully.
+2024-12-28 16:06:33,272 - INFO - GaussianFilter applied successfully.
+2024-12-28 16:06:33,273 - INFO - Detected 5 original peaks, 4 filtered peaks.
+2024-12-28 16:06:33,273 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:06:33,322 - DEBUG - Generating Frequency-Domain Analysis plot.
+2024-12-28 16:06:33,357 - DEBUG - Generating Histogram plot.
+2024-12-28 16:06:33,405 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:06:33,458 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 16:06:33,468 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp08idw4yk.html
+2024-12-28 16:06:33,470 - DEBUG - Updating Summary Metrics in the view.
+2024-12-28 16:06:33,470 - DEBUG - Updated hr_original_label to 88.76 bpm
+2024-12-28 16:06:33,470 - DEBUG - Updated hrv_original_label to 0.01 s
+2024-12-28 16:06:33,470 - DEBUG - Updated sqi_original_label to 0.99
+2024-12-28 16:06:33,470 - DEBUG - Updated pp_original_label to 53.75 mmHg
+2024-12-28 16:06:33,470 - DEBUG - Updated hr_filtered_label to 88.59 bpm
+2024-12-28 16:06:33,470 - DEBUG - Updated hrv_filtered_label to 0.01 s
+2024-12-28 16:06:33,470 - DEBUG - Updated sqi_filtered_label to 0.99
+2024-12-28 16:06:33,470 - DEBUG - Updated pp_filtered_label to 22.87 mmHg
+2024-12-28 16:06:34,374 - INFO - Selected plot type: Time-Domain Analysis
+2024-12-28 16:06:34,380 - DEBUG - Plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpifq3njm8.html
+2024-12-28 16:07:04,677 - INFO - Application is closing. Cleaning up temporary files.
+2024-12-28 16:07:04,678 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp_1sjq6iy.html
+2024-12-28 16:07:04,679 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpipfdsj6x.html
+2024-12-28 16:07:04,679 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp9lyz3ox3.html
+2024-12-28 16:07:04,680 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp_euwjqog.html
+2024-12-28 16:07:04,680 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp898sfeud.html
+2024-12-28 16:07:04,681 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp08idw4yk.html
+2024-12-28 16:10:32,695 - INFO - Logging is set up.
+2024-12-28 16:10:32,695 - INFO - Application started.
+2024-12-28 16:10:32,860 - DEBUG - Applied stylesheet.
+2024-12-28 16:10:34,729 - INFO - Loading record: p09/p099982/3001360_0001
+2024-12-28 16:10:34,733 - INFO - Record p09/p099982/3001360_0001 loaded successfully.
+2024-12-28 16:10:34,733 - INFO - Value range filter applied.
+2024-12-28 16:10:34,733 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:10:34,734 - DEBUG - Butterworth bandpass filter applied successfully.
+2024-12-28 16:10:34,734 - INFO - ButterworthFilter applied.
+2024-12-28 16:10:34,734 - INFO - Detected 5 original peaks, 2 filtered peaks.
+2024-12-28 16:10:34,734 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:10:35,547 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:10:35,585 - DEBUG - Generating Histogram plot.
+2024-12-28 16:10:35,688 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:10:35,689 - ERROR - Filter Frequency Response plot error: cannot access local variable 'freqz' where it is not associated with a value
+2024-12-28 16:10:35,689 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpf860zcf7.html
+2024-12-28 16:10:35,691 - DEBUG - Updating Summary Metrics.
+2024-12-28 16:10:46,291 - INFO - Window Duration set to 2 seconds.
+2024-12-28 16:10:56,768 - INFO - Application is closing. Cleaning up temporary files.
+2024-12-28 16:10:56,768 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpf860zcf7.html
+2024-12-28 16:11:27,474 - INFO - Logging is set up.
+2024-12-28 16:11:27,474 - INFO - Application started.
+2024-12-28 16:11:27,599 - DEBUG - Applied stylesheet.
+2024-12-28 16:11:30,045 - INFO - Loading record: p09/p099982/3001360_0001
+2024-12-28 16:11:30,049 - INFO - Record p09/p099982/3001360_0001 loaded successfully.
+2024-12-28 16:11:30,049 - INFO - Value range filter applied.
+2024-12-28 16:11:30,049 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:11:30,050 - DEBUG - Butterworth bandpass filter applied successfully.
+2024-12-28 16:11:30,050 - INFO - ButterworthFilter applied.
+2024-12-28 16:11:30,050 - INFO - Detected 5 original peaks, 2 filtered peaks.
+2024-12-28 16:11:30,050 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:11:30,706 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:11:30,737 - DEBUG - Generating Histogram plot.
+2024-12-28 16:11:30,815 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:11:30,816 - ERROR - Filter Frequency Response plot error: cannot access local variable 'freqz' where it is not associated with a value
+2024-12-28 16:11:30,817 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpduumyn2c.html
+2024-12-28 16:11:30,818 - DEBUG - Updating Summary Metrics.
+2024-12-28 16:11:37,578 - INFO - Filter strategy set to Running Mean.
+2024-12-28 16:11:37,578 - DEBUG - Running Mean filter applied successfully.
+2024-12-28 16:11:37,578 - INFO - RunningMeanFilter applied.
+2024-12-28 16:11:37,578 - INFO - Detected 5 original peaks, 4 filtered peaks.
+2024-12-28 16:11:37,579 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:11:37,612 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:11:37,641 - DEBUG - Generating Histogram plot.
+2024-12-28 16:11:37,683 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:11:37,733 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpka8jbnws.html
+2024-12-28 16:11:37,734 - DEBUG - Updating Summary Metrics.
+2024-12-28 16:11:44,637 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:11:44,638 - DEBUG - Butterworth bandpass filter applied successfully.
+2024-12-28 16:11:44,638 - INFO - ButterworthFilter applied.
+2024-12-28 16:11:44,639 - INFO - Detected 5 original peaks, 2 filtered peaks.
+2024-12-28 16:11:44,639 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:11:44,670 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:11:44,698 - DEBUG - Generating Histogram plot.
+2024-12-28 16:11:44,737 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:11:44,738 - ERROR - Filter Frequency Response plot error: cannot access local variable 'freqz' where it is not associated with a value
+2024-12-28 16:11:44,740 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp8z760yfx.html
+2024-12-28 16:11:44,741 - DEBUG - Updating Summary Metrics.
+2024-12-28 16:11:53,959 - INFO - Filter strategy set to Running Mean.
+2024-12-28 16:11:53,959 - DEBUG - Running Mean filter applied successfully.
+2024-12-28 16:11:53,959 - INFO - RunningMeanFilter applied.
+2024-12-28 16:11:53,960 - INFO - Detected 5 original peaks, 4 filtered peaks.
+2024-12-28 16:11:53,960 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:11:53,990 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:11:54,018 - DEBUG - Generating Histogram plot.
+2024-12-28 16:11:54,058 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:11:54,105 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpcjndqvm7.html
+2024-12-28 16:11:54,105 - DEBUG - Updating Summary Metrics.
+2024-12-28 16:12:04,460 - INFO - Filter strategy set to Gaussian.
+2024-12-28 16:12:04,460 - DEBUG - Gaussian filter applied successfully.
+2024-12-28 16:12:04,460 - INFO - GaussianFilter applied.
+2024-12-28 16:12:04,461 - INFO - Detected 5 original peaks, 0 filtered peaks.
+2024-12-28 16:12:04,461 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:12:04,492 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:12:04,521 - DEBUG - Generating Histogram plot.
+2024-12-28 16:12:04,560 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:12:04,597 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp51wa_ze_.html
+2024-12-28 16:12:04,598 - DEBUG - Updating Summary Metrics.
+2024-12-28 16:12:18,486 - INFO - Filter strategy set to Running Mean.
+2024-12-28 16:12:18,486 - DEBUG - Running Mean filter applied successfully.
+2024-12-28 16:12:18,486 - INFO - RunningMeanFilter applied.
+2024-12-28 16:12:18,486 - INFO - Detected 5 original peaks, 4 filtered peaks.
+2024-12-28 16:12:18,487 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:12:18,519 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:12:18,548 - DEBUG - Generating Histogram plot.
+2024-12-28 16:12:18,587 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:12:18,634 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp5qbabqzj.html
+2024-12-28 16:12:18,635 - DEBUG - Updating Summary Metrics.
+2024-12-28 16:12:33,456 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:12:33,457 - DEBUG - Butterworth bandpass filter applied successfully.
+2024-12-28 16:12:33,457 - INFO - ButterworthFilter applied.
+2024-12-28 16:12:33,458 - INFO - Detected 5 original peaks, 2 filtered peaks.
+2024-12-28 16:12:33,458 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:12:33,490 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:12:33,518 - DEBUG - Generating Histogram plot.
+2024-12-28 16:12:33,560 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:12:33,561 - ERROR - Filter Frequency Response plot error: cannot access local variable 'freqz' where it is not associated with a value
+2024-12-28 16:12:33,564 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp9ew1_z0i.html
+2024-12-28 16:12:33,565 - DEBUG - Updating Summary Metrics.
+2024-12-28 16:12:58,033 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:12:58,033 - DEBUG - Butterworth bandpass filter applied successfully.
+2024-12-28 16:12:58,033 - INFO - ButterworthFilter applied.
+2024-12-28 16:12:58,034 - INFO - Detected 5 original peaks, 2 filtered peaks.
+2024-12-28 16:12:58,034 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:12:58,064 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:12:58,092 - DEBUG - Generating Histogram plot.
+2024-12-28 16:12:58,132 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:12:58,132 - ERROR - Filter Frequency Response plot error: cannot access local variable 'freqz' where it is not associated with a value
+2024-12-28 16:12:58,135 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmppwj2gpjt.html
+2024-12-28 16:12:58,136 - DEBUG - Updating Summary Metrics.
+2024-12-28 16:13:05,777 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:13:05,777 - DEBUG - Butterworth bandpass filter applied successfully.
+2024-12-28 16:13:05,778 - INFO - ButterworthFilter applied.
+2024-12-28 16:13:05,778 - INFO - Detected 5 original peaks, 2 filtered peaks.
+2024-12-28 16:13:05,778 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:13:05,811 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:13:05,839 - DEBUG - Generating Histogram plot.
+2024-12-28 16:13:05,878 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:13:05,878 - ERROR - Filter Frequency Response plot error: cannot access local variable 'freqz' where it is not associated with a value
+2024-12-28 16:13:05,881 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpw6uvdvty.html
+2024-12-28 16:13:05,882 - DEBUG - Updating Summary Metrics.
+2024-12-28 16:13:15,111 - INFO - Window Duration set to 6 seconds.
+2024-12-28 16:13:15,628 - INFO - Window Duration set to 7 seconds.
+2024-12-28 16:13:15,783 - INFO - Window Duration set to 8 seconds.
+2024-12-28 16:13:16,117 - INFO - Window Duration set to 9 seconds.
+2024-12-28 16:13:16,418 - INFO - Window Duration set to 10 seconds.
+2024-12-28 16:13:16,715 - INFO - Window Duration set to 11 seconds.
+2024-12-28 16:13:16,984 - INFO - Window Duration set to 12 seconds.
+2024-12-28 16:13:17,220 - INFO - Window Duration set to 13 seconds.
+2024-12-28 16:13:19,929 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:13:19,929 - DEBUG - Butterworth bandpass filter applied successfully.
+2024-12-28 16:13:19,929 - INFO - ButterworthFilter applied.
+2024-12-28 16:13:19,930 - INFO - Detected 5 original peaks, 2 filtered peaks.
+2024-12-28 16:13:19,930 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:13:19,963 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:13:19,991 - DEBUG - Generating Histogram plot.
+2024-12-28 16:13:20,030 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:13:20,031 - ERROR - Filter Frequency Response plot error: cannot access local variable 'freqz' where it is not associated with a value
+2024-12-28 16:13:20,033 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp_5hylhrw.html
+2024-12-28 16:13:20,034 - DEBUG - Updating Summary Metrics.
+2024-12-28 16:13:42,542 - INFO - Window Duration set to 1 seconds.
+2024-12-28 16:13:42,653 - INFO - Window Duration set to 15 seconds.
+2024-12-28 16:13:50,522 - INFO - Window Duration set to 2 seconds.
+2024-12-28 16:13:50,689 - INFO - Window Duration set to 20 seconds.
+2024-12-28 16:13:53,709 - INFO - Window Duration set to 5 seconds.
+2024-12-28 16:13:53,822 - INFO - Window Duration set to 50 seconds.
+2024-12-28 16:13:55,420 - INFO - Window Duration set to 1 seconds.
+2024-12-28 16:13:55,539 - INFO - Window Duration set to 10 seconds.
+2024-12-28 16:13:55,795 - INFO - Window Duration set to 100 seconds.
+2024-12-28 16:13:57,534 - INFO - Window Duration set to 1 seconds.
+2024-12-28 16:13:59,455 - INFO - Window Duration set to 2 seconds.
+2024-12-28 16:14:01,045 - INFO - Window Duration set to 3 seconds.
+2024-12-28 16:14:02,620 - INFO - Window Duration set to 4 seconds.
+2024-12-28 16:14:04,007 - INFO - Window Duration set to 5 seconds.
+2024-12-28 16:14:05,275 - INFO - Window Duration set to 6 seconds.
+2024-12-28 16:15:04,976 - INFO - Loading record: p09/p099982/3001360_0003
+2024-12-28 16:15:04,983 - INFO - Record p09/p099982/3001360_0003 loaded successfully.
+2024-12-28 16:15:04,984 - INFO - Value range filter applied.
+2024-12-28 16:15:04,984 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:15:04,988 - DEBUG - Butterworth bandpass filter applied successfully.
+2024-12-28 16:15:04,988 - INFO - ButterworthFilter applied.
+2024-12-28 16:15:04,991 - INFO - Detected 1608 original peaks, 1602 filtered peaks.
+2024-12-28 16:15:04,993 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:15:05,205 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:15:05,395 - DEBUG - Generating Histogram plot.
+2024-12-28 16:15:05,543 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:15:05,544 - ERROR - Filter Frequency Response plot error: cannot access local variable 'freqz' where it is not associated with a value
+2024-12-28 16:15:05,546 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpbxfsztct.html
+2024-12-28 16:15:05,547 - DEBUG - Updating Summary Metrics.
+2024-12-28 16:15:15,017 - INFO - Filter strategy set to Running Mean.
+2024-12-28 16:15:15,018 - DEBUG - Running Mean filter applied successfully.
+2024-12-28 16:15:15,018 - INFO - RunningMeanFilter applied.
+2024-12-28 16:15:15,021 - INFO - Detected 1608 original peaks, 1601 filtered peaks.
+2024-12-28 16:15:15,024 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:15:15,224 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:15:15,410 - DEBUG - Generating Histogram plot.
+2024-12-28 16:15:15,529 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:15:15,579 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpc1cz_q3n.html
+2024-12-28 16:15:15,579 - DEBUG - Updating Summary Metrics.
+2024-12-28 16:15:24,785 - INFO - Filter strategy set to Running Mean.
+2024-12-28 16:15:24,786 - DEBUG - Running Mean filter applied successfully.
+2024-12-28 16:15:24,786 - INFO - RunningMeanFilter applied.
+2024-12-28 16:15:24,789 - INFO - Detected 1608 original peaks, 1601 filtered peaks.
+2024-12-28 16:15:24,791 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:15:24,965 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:15:25,144 - DEBUG - Generating Histogram plot.
+2024-12-28 16:15:25,257 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:15:25,307 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmppo90doqg.html
+2024-12-28 16:15:25,308 - DEBUG - Updating Summary Metrics.
+2024-12-28 16:15:37,240 - INFO - Filter strategy set to Gaussian.
+2024-12-28 16:15:37,262 - DEBUG - Gaussian filter applied successfully.
+2024-12-28 16:15:37,262 - INFO - GaussianFilter applied.
+2024-12-28 16:15:37,265 - INFO - Detected 1608 original peaks, 500 filtered peaks.
+2024-12-28 16:15:37,266 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:15:37,468 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:15:37,654 - DEBUG - Generating Histogram plot.
+2024-12-28 16:15:37,798 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:15:37,836 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpxb8gk9qt.html
+2024-12-28 16:15:37,837 - DEBUG - Updating Summary Metrics.
+2024-12-28 16:15:43,478 - INFO - Window Duration set to 3 seconds.
+2024-12-28 16:15:48,554 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:15:48,558 - DEBUG - Butterworth bandpass filter applied successfully.
+2024-12-28 16:15:48,558 - INFO - ButterworthFilter applied.
+2024-12-28 16:15:48,561 - INFO - Detected 1608 original peaks, 1602 filtered peaks.
+2024-12-28 16:15:48,564 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:15:48,774 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:15:48,963 - DEBUG - Generating Histogram plot.
+2024-12-28 16:15:49,110 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:15:49,111 - ERROR - Filter Frequency Response plot error: cannot access local variable 'freqz' where it is not associated with a value
+2024-12-28 16:15:49,115 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpz__pm2g2.html
+2024-12-28 16:15:49,116 - DEBUG - Updating Summary Metrics.
+2024-12-28 16:15:55,400 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:15:55,404 - DEBUG - Butterworth bandpass filter applied successfully.
+2024-12-28 16:15:55,404 - INFO - ButterworthFilter applied.
+2024-12-28 16:15:55,407 - INFO - Detected 1608 original peaks, 1602 filtered peaks.
+2024-12-28 16:15:55,411 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 16:15:55,620 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:15:55,810 - DEBUG - Generating Histogram plot.
+2024-12-28 16:15:55,956 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:15:55,958 - ERROR - Filter Frequency Response plot error: cannot access local variable 'freqz' where it is not associated with a value
+2024-12-28 16:15:55,962 - DEBUG - Filter Response plot saved to temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp2lwwfswo.html
+2024-12-28 16:15:55,963 - DEBUG - Updating Summary Metrics.
+2024-12-28 16:16:00,586 - INFO - Window Duration set to 4 seconds.
+2024-12-28 16:20:49,608 - INFO - Application is closing. Cleaning up temporary files.
+2024-12-28 16:20:49,608 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpduumyn2c.html
+2024-12-28 16:20:49,609 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpka8jbnws.html
+2024-12-28 16:20:49,609 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp8z760yfx.html
+2024-12-28 16:20:49,610 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpcjndqvm7.html
+2024-12-28 16:20:49,610 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp51wa_ze_.html
+2024-12-28 16:20:49,611 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp5qbabqzj.html
+2024-12-28 16:20:49,611 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp9ew1_z0i.html
+2024-12-28 16:20:49,611 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmppwj2gpjt.html
+2024-12-28 16:20:49,611 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpw6uvdvty.html
+2024-12-28 16:20:49,612 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp_5hylhrw.html
+2024-12-28 16:20:49,612 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpbxfsztct.html
+2024-12-28 16:20:49,612 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpc1cz_q3n.html
+2024-12-28 16:20:49,613 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmppo90doqg.html
+2024-12-28 16:20:49,614 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpxb8gk9qt.html
+2024-12-28 16:20:49,614 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmpz__pm2g2.html
+2024-12-28 16:20:49,614 - DEBUG - Deleted temp file: C:\Users\AHMADS~1\AppData\Local\Temp\tmp2lwwfswo.html
+2024-12-28 16:20:52,664 - INFO - Logging is set up.
+2024-12-28 16:20:52,664 - INFO - App started.
+2024-12-28 16:20:55,015 - INFO - Loading record: p09/p099982/3001360_0001
+2024-12-28 16:20:55,019 - INFO - Record p09/p099982/3001360_0001 loaded successfully.
+2024-12-28 16:20:55,019 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:20:55,020 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 16:20:55,020 - INFO - ButterworthFilter filter applied.
+2024-12-28 16:20:55,020 - INFO - Peaks found: Orig=5, Filt=2
+2024-12-28 16:20:55,021 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:20:55,689 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:20:55,720 - DEBUG - Generating Histogram plot.
+2024-12-28 16:20:55,796 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:20:55,853 - ERROR - Filter freq response load error: name 'temp_file_path' is not defined
+2024-12-28 16:20:55,854 - DEBUG - Updating summary metrics.
+2024-12-28 16:21:03,375 - INFO - Loading record: p09/p099982/3001360_0002
+2024-12-28 16:21:03,377 - INFO - Record p09/p099982/3001360_0002 loaded successfully.
+2024-12-28 16:21:03,377 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:21:03,378 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 16:21:03,378 - INFO - ButterworthFilter filter applied.
+2024-12-28 16:21:03,378 - INFO - Peaks found: Orig=31, Filt=24
+2024-12-28 16:21:03,379 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:21:03,413 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:21:03,444 - DEBUG - Generating Histogram plot.
+2024-12-28 16:21:03,483 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:21:03,536 - ERROR - Filter freq response load error: name 'temp_file_path' is not defined
+2024-12-28 16:21:03,537 - DEBUG - Updating summary metrics.
+2024-12-28 16:21:23,092 - INFO - Window Duration => 1 sec from spin.
+2024-12-28 16:21:23,226 - INFO - Window Duration => 10 sec from spin.
+2024-12-28 16:21:28,748 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:21:28,749 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 16:21:28,749 - INFO - ButterworthFilter filter applied.
+2024-12-28 16:21:28,749 - INFO - Peaks found: Orig=31, Filt=24
+2024-12-28 16:21:28,750 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:21:28,785 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:21:28,815 - DEBUG - Generating Histogram plot.
+2024-12-28 16:21:28,854 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:21:28,906 - ERROR - Filter freq response load error: name 'temp_file_path' is not defined
+2024-12-28 16:21:28,907 - DEBUG - Updating summary metrics.
+2024-12-28 16:21:35,108 - INFO - Window Duration => 5 sec from spin.
+2024-12-28 16:21:38,213 - INFO - Window Duration => 1 sec from spin.
+2024-12-28 16:21:38,438 - INFO - Window Duration => 10 sec from spin.
+2024-12-28 16:22:49,722 - INFO - Plot zoom => 2 seconds.
+2024-12-28 16:23:07,081 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:23:07,081 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 16:23:07,081 - INFO - ButterworthFilter filter applied.
+2024-12-28 16:23:07,082 - INFO - Peaks found: Orig=31, Filt=18
+2024-12-28 16:23:07,082 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:23:07,117 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:23:07,148 - DEBUG - Generating Histogram plot.
+2024-12-28 16:23:07,185 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:23:07,238 - ERROR - Filter freq response load error: name 'temp_file_path' is not defined
+2024-12-28 16:23:07,238 - DEBUG - Updating summary metrics.
+2024-12-28 16:23:19,793 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:23:19,794 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 16:23:19,794 - INFO - ButterworthFilter filter applied.
+2024-12-28 16:23:19,795 - INFO - Peaks found: Orig=31, Filt=18
+2024-12-28 16:23:19,795 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:23:19,829 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:23:19,860 - DEBUG - Generating Histogram plot.
+2024-12-28 16:23:19,898 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:23:19,952 - ERROR - Filter freq response load error: name 'temp_file_path' is not defined
+2024-12-28 16:23:19,953 - DEBUG - Updating summary metrics.
+2024-12-28 16:24:16,913 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:24:16,914 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 16:24:16,914 - INFO - ButterworthFilter filter applied.
+2024-12-28 16:24:16,914 - INFO - Peaks found: Orig=31, Filt=18
+2024-12-28 16:24:16,915 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:24:16,951 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:24:16,982 - DEBUG - Generating Histogram plot.
+2024-12-28 16:24:17,020 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:24:17,071 - ERROR - Filter freq response load error: name 'temp_file_path' is not defined
+2024-12-28 16:24:17,072 - DEBUG - Updating summary metrics.
+2024-12-28 16:25:18,616 - INFO - Filter strategy set to Running Mean.
+2024-12-28 16:25:18,618 - DEBUG - Running Mean filter applied.
+2024-12-28 16:25:18,618 - INFO - RunningMeanFilter filter applied.
+2024-12-28 16:25:18,618 - INFO - Peaks found: Orig=31, Filt=25
+2024-12-28 16:25:18,618 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:25:18,652 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:25:18,683 - DEBUG - Generating Histogram plot.
+2024-12-28 16:25:18,720 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:25:18,766 - ERROR - Filter freq response load error: name 'temp_file_path' is not defined
+2024-12-28 16:25:18,767 - DEBUG - Updating summary metrics.
+2024-12-28 16:25:29,338 - INFO - Freq domain zoom => min=0, max=14
+2024-12-28 16:25:29,338 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:25:37,850 - INFO - Filter strategy set to Gaussian.
+2024-12-28 16:25:37,851 - DEBUG - Gaussian filter applied.
+2024-12-28 16:25:37,851 - INFO - GaussianFilter filter applied.
+2024-12-28 16:25:37,852 - INFO - Peaks found: Orig=31, Filt=1
+2024-12-28 16:25:37,852 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:25:37,888 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:25:37,920 - DEBUG - Generating Histogram plot.
+2024-12-28 16:25:37,959 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:25:37,993 - ERROR - Filter freq response load error: name 'temp_file_path' is not defined
+2024-12-28 16:25:37,994 - DEBUG - Updating summary metrics.
+2024-12-28 16:26:02,027 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:26:02,028 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 16:26:02,028 - INFO - ButterworthFilter filter applied.
+2024-12-28 16:26:02,028 - INFO - Peaks found: Orig=31, Filt=18
+2024-12-28 16:26:02,029 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:26:02,063 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:26:02,093 - DEBUG - Generating Histogram plot.
+2024-12-28 16:26:02,131 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:26:02,184 - ERROR - Filter freq response load error: name 'temp_file_path' is not defined
+2024-12-28 16:26:02,185 - DEBUG - Updating summary metrics.
+2024-12-28 16:26:08,825 - INFO - Filter strategy set to Gaussian.
+2024-12-28 16:26:08,826 - DEBUG - Gaussian filter applied.
+2024-12-28 16:26:08,826 - INFO - GaussianFilter filter applied.
+2024-12-28 16:26:08,826 - INFO - Peaks found: Orig=31, Filt=1
+2024-12-28 16:26:08,826 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:26:08,866 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:26:08,898 - DEBUG - Generating Histogram plot.
+2024-12-28 16:26:08,939 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 16:26:08,975 - ERROR - Filter freq response load error: name 'temp_file_path' is not defined
+2024-12-28 16:26:08,975 - DEBUG - Updating summary metrics.
+2024-12-28 16:27:09,477 - INFO - Application closing. Deleting temp files.
+2024-12-28 16:30:34,418 - INFO - Logging is set up.
+2024-12-28 16:30:34,418 - INFO - App started.
+2024-12-28 16:30:36,246 - INFO - Loading record p09/p099982/3001360_0001...
+2024-12-28 16:30:36,249 - INFO - Record p09/p099982/3001360_0001 loaded.
+2024-12-28 16:30:36,249 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:30:36,250 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 16:30:36,250 - DEBUG - apply_filter done.
+2024-12-28 16:30:36,251 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:30:36,913 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:30:36,944 - DEBUG - Generating Histogram plot.
+2024-12-28 16:30:37,074 - DEBUG - Updating summary metrics.
+2024-12-28 16:30:37,074 - INFO - display_selected_plot => Histogram
+2024-12-28 16:30:50,944 - INFO - Filter strategy set to Running Mean.
+2024-12-28 16:30:50,944 - DEBUG - Running Mean filter applied.
+2024-12-28 16:30:50,944 - DEBUG - apply_filter done.
+2024-12-28 16:30:50,945 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:30:50,978 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:30:51,006 - DEBUG - Generating Histogram plot.
+2024-12-28 16:30:51,090 - DEBUG - Updating summary metrics.
+2024-12-28 16:30:51,090 - INFO - display_selected_plot => Histogram
+2024-12-28 16:30:55,149 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 16:30:55,156 - INFO - Window Duration => 5 seconds.
+2024-12-28 16:31:04,389 - INFO - Filter strategy set to Running Mean.
+2024-12-28 16:31:04,389 - DEBUG - Running Mean filter applied.
+2024-12-28 16:31:04,389 - DEBUG - apply_filter done.
+2024-12-28 16:31:04,390 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:31:04,423 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:31:04,451 - DEBUG - Generating Histogram plot.
+2024-12-28 16:31:04,535 - DEBUG - Updating summary metrics.
+2024-12-28 16:31:04,535 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 16:31:04,541 - INFO - Window Duration => 5 seconds.
+2024-12-28 16:31:13,496 - INFO - Filter strategy set to Running Mean.
+2024-12-28 16:31:13,496 - DEBUG - Running Mean filter applied.
+2024-12-28 16:31:13,496 - DEBUG - apply_filter done.
+2024-12-28 16:31:13,497 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:31:13,530 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:31:13,559 - DEBUG - Generating Histogram plot.
+2024-12-28 16:31:13,646 - DEBUG - Updating summary metrics.
+2024-12-28 16:31:13,646 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 16:31:13,653 - INFO - Window Duration => 5 seconds.
+2024-12-28 16:31:20,923 - INFO - Filter strategy set to Running Mean.
+2024-12-28 16:31:20,924 - DEBUG - Running Mean filter applied.
+2024-12-28 16:31:20,924 - DEBUG - apply_filter done.
+2024-12-28 16:31:20,924 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:31:20,953 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:31:20,981 - DEBUG - Generating Histogram plot.
+2024-12-28 16:31:21,066 - DEBUG - Updating summary metrics.
+2024-12-28 16:31:21,066 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 16:31:21,072 - INFO - Window Duration => 5 seconds.
+2024-12-28 16:31:27,672 - INFO - Filter strategy set to Running Mean.
+2024-12-28 16:31:27,672 - DEBUG - Running Mean filter applied.
+2024-12-28 16:31:27,673 - DEBUG - apply_filter done.
+2024-12-28 16:31:27,673 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:31:27,703 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:31:27,731 - DEBUG - Generating Histogram plot.
+2024-12-28 16:31:27,816 - DEBUG - Updating summary metrics.
+2024-12-28 16:31:27,816 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 16:31:27,822 - INFO - Window Duration => 5 seconds.
+2024-12-28 16:31:32,798 - INFO - Filter strategy set to Running Mean.
+2024-12-28 16:31:32,798 - DEBUG - Running Mean filter applied.
+2024-12-28 16:31:32,798 - DEBUG - apply_filter done.
+2024-12-28 16:31:32,798 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:31:32,829 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:31:32,857 - DEBUG - Generating Histogram plot.
+2024-12-28 16:31:32,941 - DEBUG - Updating summary metrics.
+2024-12-28 16:31:32,941 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 16:31:32,948 - INFO - Window Duration => 5 seconds.
+2024-12-28 16:32:09,990 - INFO - Filter strategy set to Gaussian.
+2024-12-28 16:32:09,990 - DEBUG - Gaussian filter applied.
+2024-12-28 16:32:09,990 - DEBUG - apply_filter done.
+2024-12-28 16:32:09,991 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:32:10,022 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:32:10,050 - DEBUG - Generating Histogram plot.
+2024-12-28 16:32:10,120 - DEBUG - Updating summary metrics.
+2024-12-28 16:32:10,121 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 16:32:10,127 - INFO - Window Duration => 5 seconds.
+2024-12-28 16:32:17,158 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:32:17,158 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 16:32:17,158 - DEBUG - apply_filter done.
+2024-12-28 16:32:17,159 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:32:17,191 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:32:17,220 - DEBUG - Generating Histogram plot.
+2024-12-28 16:32:17,311 - DEBUG - Updating summary metrics.
+2024-12-28 16:32:17,311 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 16:32:17,317 - INFO - Window Duration => 5 seconds.
+2024-12-28 16:32:27,620 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:32:27,621 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 16:32:27,621 - DEBUG - apply_filter done.
+2024-12-28 16:32:27,622 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:32:27,650 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:32:27,678 - DEBUG - Generating Histogram plot.
+2024-12-28 16:32:27,768 - DEBUG - Updating summary metrics.
+2024-12-28 16:32:27,768 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 16:32:27,774 - INFO - Window Duration => 5 seconds.
+2024-12-28 16:32:45,924 - INFO - Loading record p09/p099982/3001360_0002...
+2024-12-28 16:32:45,926 - INFO - Record p09/p099982/3001360_0002 loaded.
+2024-12-28 16:32:45,926 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:32:45,927 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 16:32:45,927 - DEBUG - apply_filter done.
+2024-12-28 16:32:45,928 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:32:45,962 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:32:45,992 - DEBUG - Generating Histogram plot.
+2024-12-28 16:32:46,082 - DEBUG - Updating summary metrics.
+2024-12-28 16:32:46,083 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 16:32:46,089 - INFO - Window Duration => 5 seconds.
+2024-12-28 16:32:51,833 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:32:51,834 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 16:32:51,834 - DEBUG - apply_filter done.
+2024-12-28 16:32:51,834 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:32:51,867 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:32:51,898 - DEBUG - Generating Histogram plot.
+2024-12-28 16:32:51,992 - DEBUG - Updating summary metrics.
+2024-12-28 16:32:51,993 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 16:32:51,999 - INFO - Window Duration => 5 seconds.
+2024-12-28 16:32:58,591 - INFO - Window Duration => 6 seconds.
+2024-12-28 16:33:27,087 - INFO - User zoom => time domain = 3 s.
+2024-12-28 16:33:35,900 - INFO - display_selected_plot => Frequency-Domain Analysis
+2024-12-28 16:33:39,329 - INFO - User zoom freq => min=0, max=14
+2024-12-28 16:33:39,329 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:33:44,141 - INFO - User zoom freq => min=3, max=4
+2024-12-28 16:33:44,141 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:34:13,106 - INFO - User zoom freq => min=2, max=4
+2024-12-28 16:34:13,106 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:34:14,241 - INFO - User zoom freq => min=1, max=5
+2024-12-28 16:34:14,241 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:34:14,474 - INFO - User zoom freq => min=0, max=7
+2024-12-28 16:34:14,474 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:34:14,711 - INFO - User zoom freq => min=0, max=11
+2024-12-28 16:34:14,712 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:34:20,022 - INFO - User zoom freq => min=0, max=12
+2024-12-28 16:34:20,022 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:34:23,948 - INFO - User zoom freq => min=0, max=3
+2024-12-28 16:34:23,948 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:34:41,902 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:34:41,903 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 16:34:41,903 - DEBUG - apply_filter done.
+2024-12-28 16:34:41,904 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:34:41,937 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:34:41,967 - DEBUG - Generating Histogram plot.
+2024-12-28 16:34:42,059 - DEBUG - Updating summary metrics.
+2024-12-28 16:34:42,059 - INFO - display_selected_plot => Frequency-Domain Analysis
+2024-12-28 16:34:53,828 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 16:34:53,836 - INFO - Window Duration => 3 seconds.
+2024-12-28 16:35:02,112 - INFO - Window Duration => 5 seconds.
+2024-12-28 16:35:10,959 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:35:10,960 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 16:35:10,960 - DEBUG - apply_filter done.
+2024-12-28 16:35:10,961 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:35:10,992 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:35:11,023 - DEBUG - Generating Histogram plot.
+2024-12-28 16:35:11,175 - DEBUG - Updating summary metrics.
+2024-12-28 16:35:11,175 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 16:35:11,181 - INFO - Window Duration => 5 seconds.
+2024-12-28 16:35:15,938 - INFO - User zoom => time domain = 7 s.
+2024-12-28 16:35:40,117 - INFO - User zoom => time domain = 3 s.
+2024-12-28 16:35:47,786 - INFO - User zoom => time domain = 9 s.
+2024-12-28 16:35:57,410 - INFO - Loading record p09/p099982/3001360_0001...
+2024-12-28 16:35:57,411 - INFO - Record p09/p099982/3001360_0001 loaded.
+2024-12-28 16:35:57,411 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:35:57,412 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 16:35:57,412 - DEBUG - apply_filter done.
+2024-12-28 16:35:57,412 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:35:57,443 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:35:57,471 - DEBUG - Generating Histogram plot.
+2024-12-28 16:35:57,559 - DEBUG - Updating summary metrics.
+2024-12-28 16:35:57,559 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 16:35:57,565 - INFO - Window Duration => 9 seconds.
+2024-12-28 16:36:02,101 - INFO - Loading record p09/p099982/3001360_0003...
+2024-12-28 16:36:02,108 - INFO - Record p09/p099982/3001360_0003 loaded.
+2024-12-28 16:36:02,108 - INFO - Filter strategy set to Butterworth.
+2024-12-28 16:36:02,112 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 16:36:02,112 - DEBUG - apply_filter done.
+2024-12-28 16:36:02,117 - DEBUG - Generating Time-Domain plot.
+2024-12-28 16:36:02,328 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 16:36:02,517 - DEBUG - Generating Histogram plot.
+2024-12-28 16:36:02,714 - DEBUG - Updating summary metrics.
+2024-12-28 16:36:02,714 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 16:36:02,727 - INFO - Window Duration => 9 seconds.
+2024-12-28 16:36:08,030 - INFO - User zoom => time domain = 241 s.
+2024-12-28 16:36:11,091 - INFO - User zoom => time domain = 115 s.
+2024-12-28 16:36:14,016 - INFO - User zoom => time domain = 69 s.
+2024-12-28 16:36:20,060 - INFO - User zoom => time domain = 21 s.
+2024-12-28 16:36:22,575 - INFO - User zoom => time domain = 13 s.
+2024-12-28 16:36:28,045 - INFO - User zoom => time domain = 4 s.
+2024-12-28 16:54:22,746 - INFO - Application is closing, cleaning temp files.
+2024-12-28 17:22:39,019 - INFO - Logging is set up.
+2024-12-28 17:22:39,019 - INFO - App started.
+2024-12-28 17:25:47,036 - INFO - Logging is set up.
+2024-12-28 17:25:47,036 - INFO - App started.
+2024-12-28 17:25:49,659 - INFO - Attempting to load record: p09/p099982/3001360_0001
+2024-12-28 17:25:49,675 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 17:25:49,675 - INFO - Record 'p09/p099982/3001360_0001' loaded successfully.
+2024-12-28 17:25:53,879 - INFO - Application is closing, cleaning up temp files.
+2024-12-28 17:27:21,063 - INFO - Logging is set up.
+2024-12-28 17:27:21,063 - INFO - App started.
+2024-12-28 17:27:22,996 - INFO - Attempting to load record: p09/p099982/3001360_0001
+2024-12-28 17:27:22,999 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 17:27:22,999 - INFO - Record 'p09/p099982/3001360_0001' loaded successfully.
+2024-12-28 17:27:27,376 - INFO - Application is closing, cleaning up temp files.
+2024-12-28 17:29:08,111 - INFO - Logging is set up.
+2024-12-28 17:29:08,111 - INFO - App started.
+2024-12-28 17:29:09,963 - INFO - Attempting to load record: p09/p099982/3001360_0001
+2024-12-28 17:29:09,966 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 17:29:09,966 - INFO - Record 'p09/p099982/3001360_0001' loaded successfully.
+2024-12-28 17:29:09,966 - INFO - Value range filter applied successfully.
+2024-12-28 17:29:15,670 - INFO - Application is closing, cleaning up temp files.
+2024-12-28 17:30:36,805 - INFO - Logging is set up.
+2024-12-28 17:30:36,805 - INFO - App started.
+2024-12-28 17:30:38,494 - INFO - Attempting to load record: p09/p099982/3001360_0001
+2024-12-28 17:30:38,497 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 17:30:38,497 - INFO - Record 'p09/p099982/3001360_0001' loaded successfully.
+2024-12-28 17:30:38,498 - INFO - Value range filter applied successfully.
+2024-12-28 17:30:38,498 - INFO - Filter strategy set to Butterworth.
+2024-12-28 17:30:38,498 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 17:30:38,498 - DEBUG - apply_filter done.
+2024-12-28 17:30:38,498 - INFO - Butterworth bandpass filter applied successfully.
+2024-12-28 17:30:38,499 - INFO - Peak detection completed successfully.
+2024-12-28 17:30:44,275 - INFO - Application is closing, cleaning up temp files.
+2024-12-28 17:32:29,390 - INFO - Logging is set up.
+2024-12-28 17:32:29,390 - INFO - App started.
+2024-12-28 17:32:31,220 - INFO - Attempting to load record: p09/p099982/3001360_0001
+2024-12-28 17:32:31,224 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 17:32:31,224 - INFO - Record 'p09/p099982/3001360_0001' loaded successfully.
+2024-12-28 17:32:31,224 - INFO - Value range filter applied successfully.
+2024-12-28 17:32:31,224 - INFO - Filter strategy set to Butterworth.
+2024-12-28 17:32:31,225 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 17:32:31,225 - DEBUG - apply_filter done.
+2024-12-28 17:32:31,225 - INFO - Butterworth bandpass filter applied successfully.
+2024-12-28 17:32:31,225 - INFO - Peak detection completed successfully.
+2024-12-28 17:32:31,226 - INFO - Metrics calculation completed successfully.
+2024-12-28 17:32:31,226 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 17:32:38,925 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 17:32:39,146 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 17:32:39,656 - DEBUG - Time-Domain Analysis plot generated successfully.
+2024-12-28 17:32:39,673 - DEBUG - Generating Histogram plot.
+2024-12-28 17:32:39,729 - DEBUG - Histogram plot generated successfully.
+2024-12-28 17:32:39,744 - DEBUG - Generating Poincaré Plot.
+2024-12-28 17:32:39,768 - DEBUG - Poincaré Plot generated successfully.
+2024-12-28 17:32:39,790 - DEBUG - Updating summary metrics in the view.
+2024-12-28 17:32:39,790 - DEBUG - Updated hr_original_label with value 88.76 bpm
+2024-12-28 17:32:39,790 - DEBUG - Updated hrv_original_label with value 0.01 s
+2024-12-28 17:32:39,790 - DEBUG - Updated pp_original_label with value 53.75 mmHg
+2024-12-28 17:32:39,790 - DEBUG - Updated sqi_original_label with value 0.99
+2024-12-28 17:32:39,790 - DEBUG - Updated hr_filtered_label with value 29.53 bpm
+2024-12-28 17:32:39,790 - DEBUG - Updated hrv_filtered_label with value N/A
+2024-12-28 17:32:39,790 - DEBUG - Updated pp_filtered_label with value 69.58 mmHg
+2024-12-28 17:32:39,790 - DEBUG - Updated sqi_filtered_label with value 0.96
+2024-12-28 17:32:48,348 - INFO - User selected plot: Histogram
+2024-12-28 17:32:49,572 - INFO - Attempting to load record: p09/p099982/3001360_0001
+2024-12-28 17:32:49,574 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 17:32:49,575 - INFO - Record 'p09/p099982/3001360_0001' loaded successfully.
+2024-12-28 17:32:49,575 - INFO - Value range filter applied successfully.
+2024-12-28 17:32:49,575 - INFO - Filter strategy set to Butterworth.
+2024-12-28 17:32:49,575 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 17:32:49,575 - DEBUG - apply_filter done.
+2024-12-28 17:32:49,575 - INFO - Butterworth bandpass filter applied successfully.
+2024-12-28 17:32:49,576 - INFO - Peak detection completed successfully.
+2024-12-28 17:32:49,576 - INFO - Metrics calculation completed successfully.
+2024-12-28 17:32:49,576 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 17:32:49,599 - DEBUG - Filter Frequency Response plot generated successfully.
+2024-12-28 17:32:49,623 - DEBUG - Generating Time-Domain Analysis plot.
+2024-12-28 17:32:49,646 - DEBUG - Time-Domain Analysis plot generated successfully.
+2024-12-28 17:32:49,662 - DEBUG - Generating Histogram plot.
+2024-12-28 17:32:49,684 - DEBUG - Histogram plot generated successfully.
+2024-12-28 17:32:49,700 - DEBUG - Generating Poincaré Plot.
+2024-12-28 17:32:49,711 - DEBUG - Poincaré Plot generated successfully.
+2024-12-28 17:32:49,736 - DEBUG - Updating summary metrics in the view.
+2024-12-28 17:32:49,736 - DEBUG - Updated hr_original_label with value 88.76 bpm
+2024-12-28 17:32:49,736 - DEBUG - Updated hrv_original_label with value 0.01 s
+2024-12-28 17:32:49,736 - DEBUG - Updated pp_original_label with value 53.75 mmHg
+2024-12-28 17:32:49,736 - DEBUG - Updated sqi_original_label with value 0.99
+2024-12-28 17:32:49,736 - DEBUG - Updated hr_filtered_label with value 29.53 bpm
+2024-12-28 17:32:49,736 - DEBUG - Updated hrv_filtered_label with value N/A
+2024-12-28 17:32:49,736 - DEBUG - Updated pp_filtered_label with value 69.58 mmHg
+2024-12-28 17:32:49,736 - DEBUG - Updated sqi_filtered_label with value 0.96
+2024-12-28 17:32:51,009 - INFO - User selected plot: Time-Domain Analysis
+2024-12-28 17:32:55,083 - INFO - User selected plot: Histogram
+2024-12-28 17:32:57,145 - INFO - User selected plot: Poincaré Plot
+2024-12-28 17:33:00,871 - INFO - User selected plot: Filter Frequency Response
+2024-12-28 17:33:07,450 - INFO - User selected plot: Time-Domain Analysis
+2024-12-28 17:33:23,293 - INFO - Application is closing, cleaning up temp files.
+2024-12-28 18:21:42,018 - INFO - Logging is set up.
+2024-12-28 18:21:42,018 - INFO - App started.
+2024-12-28 18:21:43,948 - INFO - Loading record p09/p099982/3001360_0001 ...
+2024-12-28 18:21:43,951 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 18:21:43,951 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:21:43,952 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:21:43,952 - DEBUG - apply_filter done.
+2024-12-28 18:21:43,953 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:21:44,608 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:21:44,641 - DEBUG - Generating Histogram plot.
+2024-12-28 18:21:44,717 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:21:44,774 - DEBUG - Updating summary metrics.
+2024-12-28 18:21:44,774 - INFO - display_selected_plot => Histogram
+2024-12-28 18:21:57,117 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:21:57,124 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:22:02,281 - INFO - display_selected_plot => Frequency-Domain Analysis
+2024-12-28 18:22:15,909 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:22:15,917 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:22:18,517 - INFO - Filter strategy set to Running Mean.
+2024-12-28 18:22:18,517 - DEBUG - Running Mean filter applied successfully.
+2024-12-28 18:22:18,517 - DEBUG - apply_filter done.
+2024-12-28 18:22:18,518 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:22:18,549 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:22:18,577 - DEBUG - Generating Histogram plot.
+2024-12-28 18:22:18,614 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:22:18,661 - DEBUG - Updating summary metrics.
+2024-12-28 18:22:18,662 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:22:18,668 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:22:34,455 - INFO - Filter strategy set to Running Mean.
+2024-12-28 18:22:34,455 - DEBUG - Running Mean filter applied successfully.
+2024-12-28 18:22:34,455 - DEBUG - apply_filter done.
+2024-12-28 18:22:34,456 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:22:34,486 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:22:34,515 - DEBUG - Generating Histogram plot.
+2024-12-28 18:22:34,552 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:22:34,601 - DEBUG - Updating summary metrics.
+2024-12-28 18:22:34,601 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:22:34,608 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:22:47,606 - INFO - Filter strategy set to Running Mean.
+2024-12-28 18:22:47,606 - DEBUG - Running Mean filter applied successfully.
+2024-12-28 18:22:47,606 - DEBUG - apply_filter done.
+2024-12-28 18:22:47,607 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:22:47,640 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:22:47,669 - DEBUG - Generating Histogram plot.
+2024-12-28 18:22:47,707 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:22:47,756 - DEBUG - Updating summary metrics.
+2024-12-28 18:22:47,757 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:22:47,763 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:23:03,516 - INFO - Filter strategy set to Gaussian.
+2024-12-28 18:23:03,516 - DEBUG - Gaussian smoothing (manual kernel) applied successfully.
+2024-12-28 18:23:03,516 - DEBUG - apply_filter done.
+2024-12-28 18:23:03,517 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:23:03,547 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:23:03,575 - DEBUG - Generating Histogram plot.
+2024-12-28 18:23:03,612 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:23:03,649 - DEBUG - Updating summary metrics.
+2024-12-28 18:23:03,650 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:23:03,656 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:23:18,448 - INFO - Filter strategy set to Gaussian.
+2024-12-28 18:23:18,449 - DEBUG - Gaussian smoothing (manual kernel) applied successfully.
+2024-12-28 18:23:18,449 - DEBUG - apply_filter done.
+2024-12-28 18:23:18,449 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:23:18,451 - ERROR - Time-Domain plot error: index 747 is out of bounds for axis 0 with size 375
+2024-12-28 18:23:18,451 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:23:18,482 - DEBUG - Generating Histogram plot.
+2024-12-28 18:23:18,520 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:23:18,555 - DEBUG - Updating summary metrics.
+2024-12-28 18:23:18,555 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:23:18,556 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:23:26,847 - INFO - Filter strategy set to Gaussian.
+2024-12-28 18:23:26,847 - DEBUG - Gaussian smoothing (manual kernel) applied successfully.
+2024-12-28 18:23:26,847 - DEBUG - apply_filter done.
+2024-12-28 18:23:26,848 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:23:26,850 - ERROR - Time-Domain plot error: index 755 is out of bounds for axis 0 with size 375
+2024-12-28 18:23:26,850 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:23:26,883 - DEBUG - Generating Histogram plot.
+2024-12-28 18:23:26,921 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:23:26,956 - DEBUG - Updating summary metrics.
+2024-12-28 18:23:26,956 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:23:26,957 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:23:36,580 - INFO - Filter strategy set to Gaussian.
+2024-12-28 18:23:36,580 - DEBUG - Gaussian smoothing (manual kernel) applied successfully.
+2024-12-28 18:23:36,580 - DEBUG - apply_filter done.
+2024-12-28 18:23:36,581 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:23:36,611 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:23:36,639 - DEBUG - Generating Histogram plot.
+2024-12-28 18:23:36,677 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:23:36,713 - DEBUG - Updating summary metrics.
+2024-12-28 18:23:36,713 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:23:36,719 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:23:47,889 - INFO - Filter strategy set to Gaussian.
+2024-12-28 18:23:47,889 - DEBUG - Gaussian smoothing (manual kernel) applied successfully.
+2024-12-28 18:23:47,889 - DEBUG - apply_filter done.
+2024-12-28 18:23:47,890 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:23:47,921 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:23:47,951 - DEBUG - Generating Histogram plot.
+2024-12-28 18:23:47,989 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:23:48,027 - DEBUG - Updating summary metrics.
+2024-12-28 18:23:48,027 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:23:48,033 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:24:03,431 - INFO - Filter strategy set to Gaussian.
+2024-12-28 18:24:03,432 - DEBUG - Gaussian smoothing (manual kernel) applied successfully.
+2024-12-28 18:24:03,432 - DEBUG - apply_filter done.
+2024-12-28 18:24:03,432 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:24:03,463 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:24:03,491 - DEBUG - Generating Histogram plot.
+2024-12-28 18:24:03,528 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:24:03,564 - DEBUG - Updating summary metrics.
+2024-12-28 18:24:03,564 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:24:03,570 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:24:12,212 - INFO - Filter strategy set to Gaussian.
+2024-12-28 18:24:12,212 - DEBUG - Gaussian smoothing (manual kernel) applied successfully.
+2024-12-28 18:24:12,212 - DEBUG - apply_filter done.
+2024-12-28 18:24:12,213 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:24:12,244 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:24:12,272 - DEBUG - Generating Histogram plot.
+2024-12-28 18:24:12,310 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:24:12,345 - DEBUG - Updating summary metrics.
+2024-12-28 18:24:12,345 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:24:12,351 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:24:48,312 - INFO - Loading record p09/p099982/3001360_0002 ...
+2024-12-28 18:24:48,314 - INFO - Loaded record p09/p099982/3001360_0002 successfully.
+2024-12-28 18:24:48,314 - INFO - Filter strategy set to Gaussian.
+2024-12-28 18:24:48,315 - DEBUG - Gaussian smoothing (manual kernel) applied successfully.
+2024-12-28 18:24:48,315 - DEBUG - apply_filter done.
+2024-12-28 18:24:48,315 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:24:48,349 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:24:48,380 - DEBUG - Generating Histogram plot.
+2024-12-28 18:24:48,419 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:24:48,455 - DEBUG - Updating summary metrics.
+2024-12-28 18:24:48,455 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:24:48,461 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:24:56,914 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:25:19,610 - INFO - Filter strategy set to Gaussian.
+2024-12-28 18:25:19,610 - DEBUG - Gaussian smoothing (manual kernel) applied successfully.
+2024-12-28 18:25:19,610 - DEBUG - apply_filter done.
+2024-12-28 18:25:19,612 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:25:19,648 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:25:19,678 - DEBUG - Generating Histogram plot.
+2024-12-28 18:25:19,718 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:25:19,753 - DEBUG - Updating summary metrics.
+2024-12-28 18:25:19,754 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:25:19,760 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:25:22,798 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:25:26,153 - INFO - User zoom => time domain = 2s.
+2024-12-28 18:25:47,691 - INFO - Loading record p09/p099982/3001360_0003 ...
+2024-12-28 18:25:47,698 - INFO - Loaded record p09/p099982/3001360_0003 successfully.
+2024-12-28 18:25:47,698 - INFO - Filter strategy set to Gaussian.
+2024-12-28 18:25:47,703 - DEBUG - Gaussian smoothing (manual kernel) applied successfully.
+2024-12-28 18:25:47,703 - DEBUG - apply_filter done.
+2024-12-28 18:25:47,707 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:25:47,911 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:25:48,089 - DEBUG - Generating Histogram plot.
+2024-12-28 18:25:48,231 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:25:48,271 - DEBUG - Updating summary metrics.
+2024-12-28 18:25:48,272 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:25:48,285 - INFO - Window Duration => 2s (Time-Domain).
+2024-12-28 18:25:51,794 - INFO - Window Duration => 2s (Time-Domain).
+2024-12-28 18:26:04,947 - INFO - Filter strategy set to Gaussian.
+2024-12-28 18:26:04,952 - DEBUG - Gaussian smoothing (manual kernel) applied successfully.
+2024-12-28 18:26:04,952 - DEBUG - apply_filter done.
+2024-12-28 18:26:04,956 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:26:05,159 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:26:05,337 - DEBUG - Generating Histogram plot.
+2024-12-28 18:26:05,476 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:26:05,521 - DEBUG - Updating summary metrics.
+2024-12-28 18:26:05,521 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:26:05,534 - INFO - Window Duration => 2s (Time-Domain).
+2024-12-28 18:26:09,112 - INFO - Window Duration => 2s (Time-Domain).
+2024-12-28 18:26:24,663 - INFO - User zoom => time domain = 2s.
+2024-12-28 18:26:27,292 - INFO - User zoom => time domain = 2s.
+2024-12-28 18:26:31,740 - INFO - User zoom => time domain = 2s.
+2024-12-28 18:26:33,457 - INFO - User zoom => time domain = 2s.
+2024-12-28 18:26:34,245 - INFO - User zoom => time domain = 2s.
+2024-12-28 18:26:34,968 - INFO - User zoom => time domain = 2s.
+2024-12-28 18:26:35,870 - INFO - User zoom => time domain = 2s.
+2024-12-28 18:26:36,721 - INFO - User zoom => time domain = 2s.
+2024-12-28 18:26:38,161 - INFO - User zoom => time domain = 2s.
+2024-12-28 18:26:39,158 - INFO - User zoom => time domain = 2s.
+2024-12-28 18:26:40,931 - INFO - User zoom => time domain = 2s.
+2024-12-28 18:26:41,880 - INFO - User zoom => time domain = 2s.
+2024-12-28 18:26:43,817 - INFO - User zoom => time domain = 2s.
+2024-12-28 18:26:48,652 - INFO - User zoom => time domain = 2s.
+2024-12-28 18:26:49,911 - INFO - User zoom => time domain = 2s.
+2024-12-28 18:26:51,974 - INFO - User zoom => time domain = 2s.
+2024-12-28 18:26:53,923 - INFO - User zoom => time domain = 2s.
+2024-12-28 18:26:57,091 - INFO - User zoom => time domain = 2s.
+2024-12-28 18:26:57,791 - INFO - User zoom => time domain = 2s.
+2024-12-28 18:27:02,708 - INFO - Filter strategy set to Running Mean.
+2024-12-28 18:27:02,711 - DEBUG - Running Mean filter applied successfully.
+2024-12-28 18:27:02,711 - DEBUG - apply_filter done.
+2024-12-28 18:27:02,717 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:27:02,896 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:27:03,084 - DEBUG - Generating Histogram plot.
+2024-12-28 18:27:03,207 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:27:03,259 - DEBUG - Updating summary metrics.
+2024-12-28 18:27:03,259 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:27:03,270 - INFO - Window Duration => 2s (Time-Domain).
+2024-12-28 18:27:06,978 - INFO - Window Duration => 2s (Time-Domain).
+2024-12-28 18:28:45,598 - INFO - Loading record p09/p099982/3001360_0002 ...
+2024-12-28 18:28:45,600 - INFO - Loaded record p09/p099982/3001360_0002 successfully.
+2024-12-28 18:28:45,600 - INFO - Filter strategy set to Gaussian.
+2024-12-28 18:28:45,600 - DEBUG - Gaussian smoothing (manual kernel) applied successfully.
+2024-12-28 18:28:45,600 - DEBUG - apply_filter done.
+2024-12-28 18:28:45,601 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:28:45,698 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:28:45,730 - DEBUG - Generating Histogram plot.
+2024-12-28 18:28:45,770 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:28:45,809 - DEBUG - Updating summary metrics.
+2024-12-28 18:28:45,809 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:28:45,816 - INFO - Window Duration => 2s (Time-Domain).
+2024-12-28 18:28:49,313 - INFO - Window Duration => 2s (Time-Domain).
+2024-12-28 18:30:10,956 - INFO - Application is closing. Deleting temp files.
+2024-12-28 18:33:05,675 - INFO - Logging is set up.
+2024-12-28 18:33:05,675 - INFO - App started.
+2024-12-28 18:33:13,028 - INFO - Loading record p09/p099982/3001360_0001 ...
+2024-12-28 18:33:13,031 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 18:33:13,031 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:33:13,032 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:33:13,032 - DEBUG - apply_filter done.
+2024-12-28 18:33:13,032 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:33:13,709 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:33:13,741 - DEBUG - Generating Histogram plot.
+2024-12-28 18:33:13,817 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:33:13,873 - DEBUG - Updating summary metrics.
+2024-12-28 18:33:13,873 - INFO - display_selected_plot => Histogram
+2024-12-28 18:33:22,125 - INFO - Filter strategy set to Gaussian.
+2024-12-28 18:33:22,126 - DEBUG - Gaussian smoothing (manual kernel) applied successfully.
+2024-12-28 18:33:22,126 - DEBUG - apply_filter done.
+2024-12-28 18:33:22,126 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:33:22,157 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:33:22,185 - DEBUG - Generating Histogram plot.
+2024-12-28 18:33:22,222 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:33:22,257 - DEBUG - Updating summary metrics.
+2024-12-28 18:33:22,257 - INFO - display_selected_plot => Histogram
+2024-12-28 18:33:34,700 - INFO - display_selected_plot => Frequency-Domain Analysis
+2024-12-28 18:33:39,694 - INFO - display_selected_plot => Histogram
+2024-12-28 18:33:41,549 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:33:41,556 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:33:47,147 - INFO - Filter strategy set to Gaussian.
+2024-12-28 18:33:47,147 - DEBUG - Gaussian smoothing (manual kernel) applied successfully.
+2024-12-28 18:33:47,147 - DEBUG - apply_filter done.
+2024-12-28 18:33:47,148 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:33:47,178 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:33:47,206 - DEBUG - Generating Histogram plot.
+2024-12-28 18:33:47,242 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:33:47,277 - DEBUG - Updating summary metrics.
+2024-12-28 18:33:47,277 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:33:47,284 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:33:53,398 - INFO - Application is closing. Deleting temp files.
+2024-12-28 18:37:39,253 - INFO - Logging is set up.
+2024-12-28 18:37:39,253 - INFO - App started.
+2024-12-28 18:37:47,427 - INFO - Loading record p09/p099982/3001360_0001 ...
+2024-12-28 18:37:47,430 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 18:37:47,430 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:37:47,431 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:37:47,431 - DEBUG - apply_filter done.
+2024-12-28 18:37:47,432 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:37:48,084 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:37:48,116 - DEBUG - Generating Histogram plot.
+2024-12-28 18:37:48,191 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:37:48,247 - DEBUG - Updating summary metrics.
+2024-12-28 18:37:48,247 - INFO - display_selected_plot => Histogram
+2024-12-28 18:37:52,930 - INFO - display_selected_plot => Frequency-Domain Analysis
+2024-12-28 18:37:56,026 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:37:56,034 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:38:04,210 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:38:04,211 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:38:04,211 - DEBUG - apply_filter done.
+2024-12-28 18:38:04,212 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:38:04,244 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:38:04,272 - DEBUG - Generating Histogram plot.
+2024-12-28 18:38:04,309 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:38:04,362 - DEBUG - Updating summary metrics.
+2024-12-28 18:38:04,362 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:38:04,368 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:38:12,669 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:38:12,670 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:38:12,670 - DEBUG - apply_filter done.
+2024-12-28 18:38:12,670 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:38:12,701 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:38:12,728 - DEBUG - Generating Histogram plot.
+2024-12-28 18:38:12,764 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:38:12,817 - DEBUG - Updating summary metrics.
+2024-12-28 18:38:12,817 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:38:12,824 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:38:21,807 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:38:21,808 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:38:21,808 - DEBUG - apply_filter done.
+2024-12-28 18:38:21,808 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:38:21,839 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:38:21,866 - DEBUG - Generating Histogram plot.
+2024-12-28 18:38:21,902 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:38:21,956 - DEBUG - Updating summary metrics.
+2024-12-28 18:38:21,956 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:38:21,962 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:39:15,101 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:39:15,101 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:39:15,101 - DEBUG - apply_filter done.
+2024-12-28 18:39:15,102 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:39:15,132 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:39:15,160 - DEBUG - Generating Histogram plot.
+2024-12-28 18:39:15,196 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:39:15,249 - DEBUG - Updating summary metrics.
+2024-12-28 18:39:15,249 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:39:15,256 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:39:33,392 - INFO - Loading record p09/p099982/3001360_0002 ...
+2024-12-28 18:39:33,394 - INFO - Loaded record p09/p099982/3001360_0002 successfully.
+2024-12-28 18:39:33,394 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:39:33,395 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:39:33,395 - DEBUG - apply_filter done.
+2024-12-28 18:39:33,395 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:39:33,429 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:39:33,460 - DEBUG - Generating Histogram plot.
+2024-12-28 18:39:33,498 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:39:33,551 - DEBUG - Updating summary metrics.
+2024-12-28 18:39:33,551 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:39:33,559 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:39:42,234 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:40:13,319 - INFO - Loading record p09/p099982/3001360_0001 ...
+2024-12-28 18:40:13,320 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 18:40:13,320 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:40:13,321 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:40:13,321 - DEBUG - apply_filter done.
+2024-12-28 18:40:13,322 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:40:13,352 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:40:13,379 - DEBUG - Generating Histogram plot.
+2024-12-28 18:40:13,416 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:40:13,468 - DEBUG - Updating summary metrics.
+2024-12-28 18:40:13,469 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:40:13,475 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:40:17,595 - INFO - Loading record p09/p099982/3001360_0002 ...
+2024-12-28 18:40:17,596 - INFO - Loaded record p09/p099982/3001360_0002 successfully.
+2024-12-28 18:40:17,597 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:40:17,597 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:40:17,597 - DEBUG - apply_filter done.
+2024-12-28 18:40:17,598 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:40:17,631 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:40:17,662 - DEBUG - Generating Histogram plot.
+2024-12-28 18:40:17,699 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:40:17,751 - DEBUG - Updating summary metrics.
+2024-12-28 18:40:17,752 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:40:17,758 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:40:21,336 - INFO - Loading record p09/p099982/3001360_0003 ...
+2024-12-28 18:40:21,344 - INFO - Loaded record p09/p099982/3001360_0003 successfully.
+2024-12-28 18:40:21,344 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:40:21,348 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:40:21,348 - DEBUG - apply_filter done.
+2024-12-28 18:40:21,353 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:40:21,567 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:40:21,760 - DEBUG - Generating Histogram plot.
+2024-12-28 18:40:21,905 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:40:21,958 - DEBUG - Updating summary metrics.
+2024-12-28 18:40:21,958 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:40:21,971 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:42:15,814 - INFO - Application is closing. Deleting temp files.
+2024-12-28 18:42:18,307 - INFO - Logging is set up.
+2024-12-28 18:42:18,307 - INFO - App started.
+2024-12-28 18:42:21,601 - INFO - Loading record p09/p099982/3001360_0001 ...
+2024-12-28 18:42:21,605 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 18:42:21,605 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:42:21,606 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:42:21,606 - DEBUG - apply_filter done.
+2024-12-28 18:42:21,607 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:42:22,270 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:42:22,301 - DEBUG - Generating Histogram plot.
+2024-12-28 18:42:22,376 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:42:22,432 - DEBUG - Updating summary metrics.
+2024-12-28 18:42:22,433 - INFO - display_selected_plot => Histogram
+2024-12-28 18:42:32,494 - INFO - Loading record p09/p099982/3001360_0002 ...
+2024-12-28 18:42:32,496 - INFO - Loaded record p09/p099982/3001360_0002 successfully.
+2024-12-28 18:42:32,496 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:42:32,496 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:42:32,496 - DEBUG - apply_filter done.
+2024-12-28 18:42:32,498 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:42:32,531 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:42:32,561 - DEBUG - Generating Histogram plot.
+2024-12-28 18:42:32,599 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:42:32,651 - DEBUG - Updating summary metrics.
+2024-12-28 18:42:32,651 - INFO - display_selected_plot => Histogram
+2024-12-28 18:42:52,728 - INFO - Filter strategy set to Running Mean.
+2024-12-28 18:42:52,728 - DEBUG - Running Mean filter applied successfully.
+2024-12-28 18:42:52,728 - DEBUG - apply_filter done.
+2024-12-28 18:42:52,729 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:42:52,763 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:42:52,793 - DEBUG - Generating Histogram plot.
+2024-12-28 18:42:52,831 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:42:52,879 - DEBUG - Updating summary metrics.
+2024-12-28 18:42:52,879 - INFO - display_selected_plot => Histogram
+2024-12-28 18:42:59,638 - INFO - display_selected_plot => Frequency-Domain Analysis
+2024-12-28 18:43:54,548 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:43:54,555 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:44:00,032 - INFO - Loading record p09/p099982/3001360_0002 ...
+2024-12-28 18:44:00,033 - INFO - Loaded record p09/p099982/3001360_0002 successfully.
+2024-12-28 18:44:00,034 - INFO - Filter strategy set to Running Mean.
+2024-12-28 18:44:00,034 - DEBUG - Running Mean filter applied successfully.
+2024-12-28 18:44:00,034 - DEBUG - apply_filter done.
+2024-12-28 18:44:00,035 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:44:00,066 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:44:00,096 - DEBUG - Generating Histogram plot.
+2024-12-28 18:44:00,134 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:44:00,180 - DEBUG - Updating summary metrics.
+2024-12-28 18:44:00,180 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:44:00,187 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:44:05,419 - INFO - User zoom => time domain = 4s.
+2024-12-28 18:44:49,224 - INFO - Application is closing. Deleting temp files.
+2024-12-28 18:44:52,525 - INFO - Logging is set up.
+2024-12-28 18:44:52,525 - INFO - App started.
+2024-12-28 18:44:55,039 - INFO - Loading record p09/p099982/3001360_0001 ...
+2024-12-28 18:44:55,043 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 18:44:55,043 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:44:55,044 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:44:55,044 - DEBUG - apply_filter done.
+2024-12-28 18:44:55,045 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:44:55,699 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:44:55,730 - DEBUG - Generating Histogram plot.
+2024-12-28 18:44:55,805 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:44:55,862 - DEBUG - Updating summary metrics.
+2024-12-28 18:44:55,862 - INFO - display_selected_plot => Histogram
+2024-12-28 18:46:56,402 - INFO - Application is closing. Deleting temp files.
+2024-12-28 18:46:58,989 - INFO - Logging is set up.
+2024-12-28 18:46:58,989 - INFO - App started.
+2024-12-28 18:47:01,906 - INFO - Loading record p09/p099982/3001360_0001 ...
+2024-12-28 18:47:01,909 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 18:47:01,909 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:47:01,910 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:47:01,910 - DEBUG - apply_filter done.
+2024-12-28 18:47:01,911 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:47:02,570 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:47:02,602 - DEBUG - Generating Histogram plot.
+2024-12-28 18:47:02,676 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:47:02,731 - DEBUG - Updating summary metrics.
+2024-12-28 18:47:02,731 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:47:02,737 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:47:13,499 - INFO - Loading record p09/p099982/3001360_0002 ...
+2024-12-28 18:47:13,500 - INFO - Loaded record p09/p099982/3001360_0002 successfully.
+2024-12-28 18:47:13,501 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:47:13,501 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:47:13,501 - DEBUG - apply_filter done.
+2024-12-28 18:47:13,502 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:47:13,536 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:47:13,567 - DEBUG - Generating Histogram plot.
+2024-12-28 18:47:13,607 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:47:13,660 - DEBUG - Updating summary metrics.
+2024-12-28 18:47:13,660 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:47:13,667 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:47:23,819 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:47:25,641 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:47:25,642 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:47:25,642 - DEBUG - apply_filter done.
+2024-12-28 18:47:25,643 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:47:25,677 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:47:25,707 - DEBUG - Generating Histogram plot.
+2024-12-28 18:47:25,745 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:47:25,798 - DEBUG - Updating summary metrics.
+2024-12-28 18:47:25,799 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:47:25,805 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:47:30,418 - INFO - Window Duration => 6s (Time-Domain).
+2024-12-28 18:47:30,651 - INFO - Window Duration => 6s (Time-Domain).
+2024-12-28 18:47:31,954 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:47:31,954 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:47:31,955 - DEBUG - apply_filter done.
+2024-12-28 18:47:31,955 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:47:31,990 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:47:32,021 - DEBUG - Generating Histogram plot.
+2024-12-28 18:47:32,059 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:47:32,111 - DEBUG - Updating summary metrics.
+2024-12-28 18:47:32,111 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:47:32,118 - INFO - Window Duration => 6s (Time-Domain).
+2024-12-28 18:47:39,276 - INFO - Window Duration => 6s (Time-Domain).
+2024-12-28 18:47:45,966 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:47:48,366 - INFO - Window Duration => 4s (Time-Domain).
+2024-12-28 18:47:58,024 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:47:58,024 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:47:58,024 - DEBUG - apply_filter done.
+2024-12-28 18:47:58,025 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:47:58,059 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:47:58,092 - DEBUG - Generating Histogram plot.
+2024-12-28 18:47:58,133 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:47:58,186 - DEBUG - Updating summary metrics.
+2024-12-28 18:47:58,186 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:47:58,193 - INFO - Window Duration => 4s (Time-Domain).
+2024-12-28 18:48:04,554 - INFO - User zoom => time domain = 10s.
+2024-12-28 18:48:35,728 - INFO - Loading record p09/p099982/3001360_0003 ...
+2024-12-28 18:48:35,736 - INFO - Loaded record p09/p099982/3001360_0003 successfully.
+2024-12-28 18:48:35,737 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:48:35,740 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:48:35,740 - DEBUG - apply_filter done.
+2024-12-28 18:48:35,745 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:48:35,954 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:48:36,141 - DEBUG - Generating Histogram plot.
+2024-12-28 18:48:36,283 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:48:36,336 - DEBUG - Updating summary metrics.
+2024-12-28 18:48:36,337 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:48:36,349 - INFO - Window Duration => 10s (Time-Domain).
+2024-12-28 18:48:41,896 - INFO - Window Duration => 10s (Time-Domain).
+2024-12-28 18:48:51,528 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:48:51,531 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:48:51,532 - DEBUG - apply_filter done.
+2024-12-28 18:48:51,537 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:48:51,743 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:48:51,928 - DEBUG - Generating Histogram plot.
+2024-12-28 18:48:52,071 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:48:52,126 - DEBUG - Updating summary metrics.
+2024-12-28 18:48:52,127 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:48:52,139 - INFO - Window Duration => 10s (Time-Domain).
+2024-12-28 18:48:55,622 - INFO - Window Duration => 10s (Time-Domain).
+2024-12-28 18:51:20,934 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:51:22,688 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:51:22,692 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:51:22,692 - DEBUG - apply_filter done.
+2024-12-28 18:51:22,698 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:51:22,908 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:51:23,097 - DEBUG - Generating Histogram plot.
+2024-12-28 18:51:23,242 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:51:23,297 - DEBUG - Updating summary metrics.
+2024-12-28 18:51:23,297 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:51:23,310 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:51:45,736 - INFO - Application is closing. Deleting temp files.
+2024-12-28 18:52:18,574 - INFO - Logging is set up.
+2024-12-28 18:52:18,575 - INFO - App started.
+2024-12-28 18:52:31,064 - INFO - Loading record p09/p099982/3001360_0001 ...
+2024-12-28 18:52:31,069 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 18:52:31,069 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:52:31,071 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:52:31,071 - DEBUG - apply_filter done.
+2024-12-28 18:52:31,073 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:52:32,224 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:52:32,279 - DEBUG - Generating Histogram plot.
+2024-12-28 18:52:32,429 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:52:32,524 - DEBUG - Updating summary metrics.
+2024-12-28 18:52:45,069 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:53:53,273 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 18:54:54,784 - INFO - Loading record p09/p099982/3001360_0002 ...
+2024-12-28 18:54:54,788 - INFO - Loaded record p09/p099982/3001360_0002 successfully.
+2024-12-28 18:54:54,788 - INFO - Filter strategy set to Butterworth.
+2024-12-28 18:54:54,790 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 18:54:54,790 - DEBUG - apply_filter done.
+2024-12-28 18:54:54,792 - DEBUG - Generating Time-Domain plot.
+2024-12-28 18:54:54,854 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 18:54:54,912 - DEBUG - Generating Histogram plot.
+2024-12-28 18:54:54,987 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 18:54:55,079 - DEBUG - Updating summary metrics.
+2024-12-28 18:55:00,969 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 18:55:37,824 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:01:54,397 - INFO - Logging is set up.
+2024-12-28 19:01:54,397 - INFO - App started.
+2024-12-28 19:02:01,935 - INFO - Loading record p09/p099982/3001360_0001 ...
+2024-12-28 19:02:01,939 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 19:02:01,939 - INFO - Filter strategy set to Butterworth.
+2024-12-28 19:02:01,940 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 19:02:01,940 - DEBUG - apply_filter done.
+2024-12-28 19:02:01,940 - DEBUG - Generating Time-Domain plot.
+2024-12-28 19:02:02,589 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 19:02:02,620 - DEBUG - Generating Histogram plot.
+2024-12-28 19:02:02,694 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 19:02:02,752 - DEBUG - Updating summary metrics.
+2024-12-28 19:02:02,752 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 19:02:02,758 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:02:08,829 - INFO - Loading record p09/p099982/3001360_0002 ...
+2024-12-28 19:02:08,831 - INFO - Loaded record p09/p099982/3001360_0002 successfully.
+2024-12-28 19:02:08,831 - INFO - Filter strategy set to Butterworth.
+2024-12-28 19:02:08,831 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 19:02:08,832 - DEBUG - apply_filter done.
+2024-12-28 19:02:08,832 - DEBUG - Generating Time-Domain plot.
+2024-12-28 19:02:08,865 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 19:02:08,895 - DEBUG - Generating Histogram plot.
+2024-12-28 19:02:08,933 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 19:02:08,987 - DEBUG - Updating summary metrics.
+2024-12-28 19:02:08,987 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 19:02:08,994 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:02:22,694 - INFO - Application is closing. Deleting temp files.
+2024-12-28 19:04:15,973 - INFO - Logging is set up.
+2024-12-28 19:04:15,973 - INFO - App started.
+2024-12-28 19:04:18,992 - INFO - Loading record p09/p099982/3001360_0001 ...
+2024-12-28 19:04:18,995 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 19:04:18,995 - INFO - Filter strategy set to Butterworth.
+2024-12-28 19:04:18,996 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 19:04:18,996 - DEBUG - apply_filter done.
+2024-12-28 19:04:18,997 - DEBUG - Generating Time-Domain plot.
+2024-12-28 19:04:19,640 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 19:04:19,671 - DEBUG - Generating Histogram plot.
+2024-12-28 19:04:19,744 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 19:04:19,799 - DEBUG - Updating summary metrics.
+2024-12-28 19:04:19,799 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 19:04:19,805 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:04:29,681 - INFO - Loading record p09/p099982/3001360_0002 ...
+2024-12-28 19:04:29,683 - INFO - Loaded record p09/p099982/3001360_0002 successfully.
+2024-12-28 19:04:29,683 - INFO - Filter strategy set to Butterworth.
+2024-12-28 19:04:29,684 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 19:04:29,684 - DEBUG - apply_filter done.
+2024-12-28 19:04:29,685 - DEBUG - Generating Time-Domain plot.
+2024-12-28 19:04:29,718 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 19:04:29,748 - DEBUG - Generating Histogram plot.
+2024-12-28 19:04:29,787 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 19:04:29,838 - DEBUG - Updating summary metrics.
+2024-12-28 19:04:29,839 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 19:04:29,845 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:04:39,914 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:04:41,099 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:04:53,750 - INFO - Loading record p09/p099982/3001360_0001 ...
+2024-12-28 19:04:53,751 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 19:04:53,751 - INFO - Filter strategy set to Butterworth.
+2024-12-28 19:04:53,752 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 19:04:53,752 - DEBUG - apply_filter done.
+2024-12-28 19:04:53,753 - DEBUG - Generating Time-Domain plot.
+2024-12-28 19:04:53,783 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 19:04:53,811 - DEBUG - Generating Histogram plot.
+2024-12-28 19:04:53,847 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 19:04:53,903 - DEBUG - Updating summary metrics.
+2024-12-28 19:04:53,903 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 19:04:53,910 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:04:57,313 - INFO - Filter strategy set to Butterworth.
+2024-12-28 19:04:57,314 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 19:04:57,314 - DEBUG - apply_filter done.
+2024-12-28 19:04:57,315 - DEBUG - Generating Time-Domain plot.
+2024-12-28 19:04:57,343 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 19:04:57,371 - DEBUG - Generating Histogram plot.
+2024-12-28 19:04:57,407 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 19:04:57,459 - DEBUG - Updating summary metrics.
+2024-12-28 19:04:57,459 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 19:04:57,465 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:05:01,462 - INFO - Loading record p09/p099982/3001360_0003 ...
+2024-12-28 19:05:01,469 - INFO - Loaded record p09/p099982/3001360_0003 successfully.
+2024-12-28 19:05:01,469 - INFO - Filter strategy set to Butterworth.
+2024-12-28 19:05:01,473 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 19:05:01,473 - DEBUG - apply_filter done.
+2024-12-28 19:05:01,478 - DEBUG - Generating Time-Domain plot.
+2024-12-28 19:05:01,686 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 19:05:01,875 - DEBUG - Generating Histogram plot.
+2024-12-28 19:05:02,020 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 19:05:02,074 - DEBUG - Updating summary metrics.
+2024-12-28 19:05:02,075 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 19:05:02,087 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:05:04,420 - INFO - Filter strategy set to Butterworth.
+2024-12-28 19:05:04,424 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 19:05:04,425 - DEBUG - apply_filter done.
+2024-12-28 19:05:04,435 - DEBUG - Generating Time-Domain plot.
+2024-12-28 19:05:04,641 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 19:05:04,825 - DEBUG - Generating Histogram plot.
+2024-12-28 19:05:04,968 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 19:05:05,026 - DEBUG - Updating summary metrics.
+2024-12-28 19:05:05,026 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 19:05:05,039 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:05:10,890 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:05:48,677 - INFO - Filter strategy set to Butterworth.
+2024-12-28 19:05:48,680 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 19:05:48,680 - DEBUG - apply_filter done.
+2024-12-28 19:05:48,687 - DEBUG - Generating Time-Domain plot.
+2024-12-28 19:05:48,891 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 19:05:49,079 - DEBUG - Generating Histogram plot.
+2024-12-28 19:05:49,223 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 19:05:49,279 - DEBUG - Updating summary metrics.
+2024-12-28 19:05:49,279 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 19:05:49,292 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:06:07,825 - INFO - Window Duration => 6s (Time-Domain).
+2024-12-28 19:07:20,071 - INFO - Application is closing. Deleting temp files.
+2024-12-28 19:07:43,879 - INFO - Logging is set up.
+2024-12-28 19:07:43,879 - INFO - App started.
+2024-12-28 19:11:52,449 - INFO - Application is closing. Deleting temp files.
+2024-12-28 19:11:55,098 - INFO - Logging is set up.
+2024-12-28 19:11:55,098 - INFO - App started.
+2024-12-28 19:11:58,226 - INFO - Loading record p09/p099982/3001360_0001 ...
+2024-12-28 19:11:58,230 - ERROR - Load record error: 'ABPModel' object has no attribute 'view'
+2024-12-28 19:15:38,282 - INFO - Application is closing. Deleting temp files.
+2024-12-28 19:15:41,292 - INFO - Logging is set up.
+2024-12-28 19:15:41,292 - INFO - App started.
+2024-12-28 19:15:43,000 - INFO - Loading record p09/p099982/3001360_0001 ...
+2024-12-28 19:15:43,004 - ERROR - Load record error: 'ABPModel' object has no attribute 'view'
+2024-12-28 19:15:48,296 - INFO - Loading record p09/p099982/3001360_0001 ...
+2024-12-28 19:15:48,298 - ERROR - Load record error: 'ABPModel' object has no attribute 'view'
+2024-12-28 19:15:50,811 - INFO - Application is closing. Deleting temp files.
+2024-12-28 19:19:31,823 - INFO - Logging is set up.
+2024-12-28 19:19:31,823 - INFO - App started.
+2024-12-28 19:19:38,573 - INFO - Loading record p09/p099982/3001360_0001 ...
+2024-12-28 19:19:38,576 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 19:19:38,576 - INFO - Filter strategy set to Butterworth.
+2024-12-28 19:19:38,577 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 19:19:38,577 - DEBUG - apply_filter done.
+2024-12-28 19:19:38,578 - DEBUG - Generating Time-Domain plot.
+2024-12-28 19:19:39,224 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 19:19:39,255 - DEBUG - Generating Histogram plot.
+2024-12-28 19:19:39,328 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 19:19:39,385 - DEBUG - Updating summary metrics.
+2024-12-28 19:19:39,386 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 19:19:39,393 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:19:39,393 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:19:43,770 - INFO - Loading record p09/p099982/3001360_0003 ...
+2024-12-28 19:19:43,777 - INFO - Loaded record p09/p099982/3001360_0003 successfully.
+2024-12-28 19:19:43,778 - INFO - Filter strategy set to Butterworth.
+2024-12-28 19:19:43,782 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 19:19:43,782 - DEBUG - apply_filter done.
+2024-12-28 19:19:43,787 - DEBUG - Generating Time-Domain plot.
+2024-12-28 19:19:43,992 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 19:19:44,181 - DEBUG - Generating Histogram plot.
+2024-12-28 19:19:44,326 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 19:19:44,379 - DEBUG - Updating summary metrics.
+2024-12-28 19:19:44,380 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 19:19:44,393 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:19:44,393 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:19:48,247 - INFO - Loading record p09/p099982/3001360_0003 ...
+2024-12-28 19:19:48,255 - INFO - Loaded record p09/p099982/3001360_0003 successfully.
+2024-12-28 19:19:48,255 - INFO - Filter strategy set to Butterworth.
+2024-12-28 19:19:48,259 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 19:19:48,259 - DEBUG - apply_filter done.
+2024-12-28 19:19:48,264 - DEBUG - Generating Time-Domain plot.
+2024-12-28 19:19:48,467 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 19:19:48,653 - DEBUG - Generating Histogram plot.
+2024-12-28 19:19:48,796 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 19:19:48,854 - DEBUG - Updating summary metrics.
+2024-12-28 19:19:48,855 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 19:19:48,868 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:19:48,868 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:19:52,519 - INFO - Application is closing. Deleting temp files.
+2024-12-28 19:20:01,721 - INFO - Logging is set up.
+2024-12-28 19:20:01,722 - INFO - App started.
+2024-12-28 19:20:03,986 - INFO - Loading record p09/p099982/3001360_0001 ...
+2024-12-28 19:20:03,989 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 19:20:03,989 - INFO - Filter strategy set to Butterworth.
+2024-12-28 19:20:03,990 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 19:20:03,990 - DEBUG - apply_filter done.
+2024-12-28 19:20:03,991 - DEBUG - Generating Time-Domain plot.
+2024-12-28 19:20:04,646 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 19:20:04,678 - DEBUG - Generating Histogram plot.
+2024-12-28 19:20:04,752 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 19:20:04,809 - DEBUG - Updating summary metrics.
+2024-12-28 19:20:04,809 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 19:20:04,815 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:20:08,868 - INFO - Loading record p09/p099982/3001360_0002 ...
+2024-12-28 19:20:08,870 - INFO - Loaded record p09/p099982/3001360_0002 successfully.
+2024-12-28 19:20:08,870 - INFO - Filter strategy set to Butterworth.
+2024-12-28 19:20:08,871 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 19:20:08,871 - DEBUG - apply_filter done.
+2024-12-28 19:20:08,871 - DEBUG - Generating Time-Domain plot.
+2024-12-28 19:20:08,903 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 19:20:08,934 - DEBUG - Generating Histogram plot.
+2024-12-28 19:20:08,973 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 19:20:09,025 - DEBUG - Updating summary metrics.
+2024-12-28 19:20:09,025 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 19:20:09,032 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:20:13,463 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:20:29,318 - INFO - Filter strategy set to Butterworth.
+2024-12-28 19:20:29,319 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 19:20:29,319 - DEBUG - apply_filter done.
+2024-12-28 19:20:29,320 - DEBUG - Generating Time-Domain plot.
+2024-12-28 19:20:29,352 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 19:20:29,382 - DEBUG - Generating Histogram plot.
+2024-12-28 19:20:29,421 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 19:20:29,472 - DEBUG - Updating summary metrics.
+2024-12-28 19:20:29,472 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 19:20:29,479 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:20:48,170 - INFO - User zoom => time domain = 13s.
+2024-12-28 19:20:54,715 - INFO - User zoom => time domain = 6s.
+2024-12-28 19:20:58,734 - INFO - Window Duration => 3s (Time-Domain).
+2024-12-28 19:20:58,980 - INFO - Window Duration => 3s (Time-Domain).
+2024-12-28 19:21:01,981 - INFO - Window Duration => 2s (Time-Domain).
+2024-12-28 19:21:02,228 - INFO - Window Duration => 2s (Time-Domain).
+2024-12-28 19:21:05,068 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:21:05,303 - INFO - Window Duration => 5s (Time-Domain).
+2024-12-28 19:21:10,194 - INFO - Window Duration => 4s (Time-Domain).
+2024-12-28 19:21:10,471 - INFO - Window Duration => 4s (Time-Domain).
+2024-12-28 19:21:12,601 - INFO - Window Duration => 1s (Time-Domain).
+2024-12-28 19:21:12,804 - INFO - Window Duration => 10s (Time-Domain).
+2024-12-28 19:21:12,999 - INFO - Window Duration => 10s (Time-Domain).
+2024-12-28 19:21:16,149 - INFO - Window Duration => 3s (Time-Domain).
+2024-12-28 19:21:16,269 - INFO - Window Duration => 30s (Time-Domain).
+2024-12-28 19:21:16,448 - INFO - Window Duration => 30s (Time-Domain).
+2024-12-28 19:21:21,363 - INFO - User zoom => time domain = 11s.
+2024-12-28 19:21:23,923 - INFO - User zoom => time domain = 12s.
+2024-12-28 19:21:27,543 - INFO - Window Duration => 3s (Time-Domain).
+2024-12-28 19:21:36,128 - INFO - User zoom => time domain = 3s.
+2024-12-28 19:21:42,041 - INFO - User zoom => time domain = 6s.
+2024-12-28 19:21:42,966 - INFO - User zoom => time domain = 6s.
+2024-12-28 19:21:43,764 - INFO - User zoom => time domain = 6s.
+2024-12-28 19:21:47,395 - INFO - Window Duration => 2s (Time-Domain).
+2024-12-28 19:21:47,500 - INFO - Window Duration => 20s (Time-Domain).
+2024-12-28 19:21:49,933 - INFO - User zoom => time domain = 20s.
+2024-12-28 19:21:58,609 - INFO - User zoom => time domain = 8s.
+2024-12-28 19:22:04,194 - INFO - User zoom => time domain = 7s.
+2024-12-28 19:22:05,654 - INFO - User zoom => time domain = 9s.
+2024-12-28 19:22:10,770 - INFO - Application is closing. Deleting temp files.
+2024-12-28 19:24:25,259 - INFO - Logging is set up.
+2024-12-28 19:24:25,260 - INFO - App started.
+2024-12-28 19:24:29,445 - INFO - Loading record p09/p099982/3001360_0001 ...
+2024-12-28 19:24:29,450 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 19:24:29,450 - INFO - Filter strategy set to Butterworth.
+2024-12-28 19:24:29,451 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 19:24:29,451 - DEBUG - apply_filter done.
+2024-12-28 19:24:29,453 - DEBUG - Generating Time-Domain plot.
+2024-12-28 19:24:30,119 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 19:24:30,150 - DEBUG - Generating Histogram plot.
+2024-12-28 19:24:30,223 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 19:24:30,280 - DEBUG - Updating summary metrics.
+2024-12-28 19:24:30,280 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 19:24:36,522 - INFO - Loading record p09/p099982/3001360_0002 ...
+2024-12-28 19:24:36,524 - INFO - Loaded record p09/p099982/3001360_0002 successfully.
+2024-12-28 19:24:36,524 - INFO - Filter strategy set to Butterworth.
+2024-12-28 19:24:36,525 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 19:24:36,525 - DEBUG - apply_filter done.
+2024-12-28 19:24:36,526 - DEBUG - Generating Time-Domain plot.
+2024-12-28 19:24:36,559 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 19:24:36,591 - DEBUG - Generating Histogram plot.
+2024-12-28 19:24:36,629 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 19:24:36,683 - DEBUG - Updating summary metrics.
+2024-12-28 19:24:36,684 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 19:25:37,675 - INFO - display_selected_plot => Frequency-Domain Analysis
+2024-12-28 19:25:44,618 - INFO - User freq zoom => min=0, max=10
+2024-12-28 19:25:44,618 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 19:26:15,808 - INFO - Application is closing. Deleting temp files.
+2024-12-28 21:26:11,782 - INFO - Logging is set up.
+2024-12-28 21:26:11,782 - INFO - App started.
+2024-12-28 21:26:20,569 - INFO - Loading record p09/p099982/3001360_0001 ...
+2024-12-28 21:26:20,585 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 21:26:20,586 - INFO - Filter strategy set to Butterworth.
+2024-12-28 21:26:20,586 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 21:26:20,586 - DEBUG - apply_filter done.
+2024-12-28 21:26:20,587 - DEBUG - Generating Time-Domain plot.
+2024-12-28 21:26:22,765 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 21:26:22,809 - DEBUG - Generating Histogram plot.
+2024-12-28 21:26:23,351 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 21:26:23,492 - DEBUG - Updating summary metrics.
+2024-12-28 21:26:23,492 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 21:26:30,696 - INFO - display_selected_plot => Histogram
+2024-12-28 21:26:34,910 - INFO - Application is closing. Deleting temp files.
+2024-12-28 21:28:51,708 - INFO - Logging is set up.
+2024-12-28 21:28:51,708 - INFO - App started.
+2024-12-28 21:28:54,639 - INFO - Application is closing. Deleting temp files.
+2024-12-28 21:29:29,975 - INFO - Logging is set up.
+2024-12-28 21:29:29,975 - INFO - App started.
+2024-12-28 21:29:33,235 - INFO - Loading record p09/p099982/3001360_0001 ...
+2024-12-28 21:29:33,238 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 21:29:33,238 - INFO - Filter strategy set to Butterworth.
+2024-12-28 21:29:33,239 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 21:29:33,239 - DEBUG - apply_filter done.
+2024-12-28 21:29:33,240 - DEBUG - Generating Time-Domain plot.
+2024-12-28 21:29:33,495 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 21:29:33,529 - DEBUG - Generating Histogram plot.
+2024-12-28 21:29:33,609 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 21:29:33,670 - DEBUG - Updating summary metrics.
+2024-12-28 21:29:33,670 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 21:29:45,416 - INFO - Filter strategy set to Running Mean.
+2024-12-28 21:29:45,416 - DEBUG - Running Mean filter applied successfully.
+2024-12-28 21:29:45,416 - DEBUG - apply_filter done.
+2024-12-28 21:29:45,417 - DEBUG - Generating Time-Domain plot.
+2024-12-28 21:29:45,453 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 21:29:45,484 - DEBUG - Generating Histogram plot.
+2024-12-28 21:29:45,526 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 21:29:45,577 - DEBUG - Updating summary metrics.
+2024-12-28 21:29:45,577 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 21:29:53,296 - INFO - Filter strategy set to Running Mean.
+2024-12-28 21:29:53,296 - DEBUG - Running Mean filter applied successfully.
+2024-12-28 21:29:53,296 - DEBUG - apply_filter done.
+2024-12-28 21:29:53,297 - DEBUG - Generating Time-Domain plot.
+2024-12-28 21:29:53,330 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 21:29:53,361 - DEBUG - Generating Histogram plot.
+2024-12-28 21:29:53,401 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 21:29:53,451 - DEBUG - Updating summary metrics.
+2024-12-28 21:29:53,452 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 21:29:59,166 - INFO - Application is closing. Deleting temp files.
+2024-12-28 21:37:24,242 - INFO - Logging is set up.
+2024-12-28 21:37:24,243 - INFO - App started.
+2024-12-28 21:37:27,363 - INFO - Application is closing. Deleting temp files.
+2024-12-28 21:38:49,838 - INFO - Logging is set up.
+2024-12-28 21:38:49,838 - INFO - App started.
+2024-12-28 21:38:53,847 - INFO - Loading record p09/p099982/3001360_0001 ...
+2024-12-28 21:38:53,850 - INFO - Loaded record p09/p099982/3001360_0001 successfully.
+2024-12-28 21:38:53,850 - INFO - Filter strategy set to Butterworth.
+2024-12-28 21:38:53,850 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 21:38:53,851 - DEBUG - apply_filter done.
+2024-12-28 21:38:53,851 - DEBUG - Generating Time-Domain plot.
+2024-12-28 21:38:54,102 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 21:38:54,133 - DEBUG - Generating Histogram plot.
+2024-12-28 21:38:54,209 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 21:38:54,265 - DEBUG - Updating summary metrics.
+2024-12-28 21:38:54,266 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 21:39:00,466 - INFO - Application is closing. Deleting temp files.
+2024-12-28 21:39:12,453 - INFO - Logging is set up.
+2024-12-28 21:39:12,453 - INFO - App started.
+2024-12-28 21:39:17,605 - INFO - Loading record p09/p099982/3001360_0002 ...
+2024-12-28 21:39:17,621 - INFO - Loaded record p09/p099982/3001360_0002 successfully.
+2024-12-28 21:39:17,621 - INFO - Filter strategy set to Butterworth.
+2024-12-28 21:39:17,622 - DEBUG - Butterworth filter applied successfully.
+2024-12-28 21:39:17,622 - DEBUG - apply_filter done.
+2024-12-28 21:39:17,623 - DEBUG - Generating Time-Domain plot.
+2024-12-28 21:39:17,873 - DEBUG - Generating Frequency-Domain plot.
+2024-12-28 21:39:17,907 - DEBUG - Generating Histogram plot.
+2024-12-28 21:39:17,983 - DEBUG - Generating Filter Frequency Response plot.
+2024-12-28 21:39:18,040 - DEBUG - Updating summary metrics.
+2024-12-28 21:39:18,040 - INFO - display_selected_plot => Time-Domain Analysis
+2024-12-28 21:39:23,105 - INFO - Application is closing. Deleting temp files.

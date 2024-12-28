@@ -1,0 +1,32 @@
+# requirements.txt
+
+# PySide6: Python bindings for the Qt toolkit, used for creating the GUI.
+PySide6>=6.5.0
+
+# Plotly: Interactive graphing library used for generating plots.
+plotly>=5.15.0
+
+# WFDB: WaveForm DataBase package for reading, writing, and processing WFDB files.
+wfdb>=2.5.0
+
+# NumPy: Fundamental package for scientific computing with Python.
+numpy>=1.24.0
+
+# SciPy: Library used for scientific and technical computing, including signal processing.
+scipy>=1.10.0
+
+# python-dotenv: Reads key-value pairs from a .env file and can set them as environment variables.
+python-dotenv>=1.0.0
+
+# Additional Dependencies:
+# PyWavelets: Provides wavelet transforms, useful for signal processing.
+PyWavelets>=1.3.0
+
+# pyqtgraph: Pure-python graphics and GUI library built on PyQt / PySide and NumPy.
+pyqtgraph>=0.13.0
+
+# Optional for Testing:
+# pytest: Framework for writing and running tests.
+# pytest-qt: Pytest plugin for testing PyQt/PySide applications.
+# pytest>=7.0.0
+# pytest-qt>=4.0.0
