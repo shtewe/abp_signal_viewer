@@ -18,17 +18,16 @@ set "PACKAGES=numpy plotly scipy wfdb PyWavelets PySide6 pyqtgraph pyinstaller p
 rem ------------------------------------------------------------
 rem 1. CHECK IF SCRIPT IS RUNNING INSIDE AN ACTIVE VIRTUAL ENV
 rem ------------------------------------------------------------
-rem Determine if a virtual environment is active
-for /f "usebackq tokens=*" %%i in (`python -c "import sys; print(sys.prefix == sys.base_prefix)"`) do set "VENV_ACTIVE=%%i"
-
-if "!VENV_ACTIVE!"=="True" (
+rem Determine if a virtual environment is active by checking VIRTUAL_ENV variable
+if defined VIRTUAL_ENV (
+    set "VENV_ACTIVE=True"
     echo [INFO] A virtual environment is currently active.
     echo [INFO] A virtual environment is currently active. >> "%LOG_FILE%"
-    rem Proceed without setting up a new environment
 ) else (
+    set "VENV_ACTIVE=False"
     echo [INFO] No virtual environment is active. Proceeding to set up "%ENV_NAME%"...
     echo [INFO] No virtual environment is active. Proceeding to set up "%ENV_NAME%"... >> "%LOG_FILE%"
-
+    
     rem ------------------------------------------------------------
     rem 2. FORCE CURRENT WORKING DIRECTORY TO SCRIPT LOCATION
     rem ------------------------------------------------------------
@@ -149,6 +148,24 @@ if "!VENV_ACTIVE!"=="True" (
 
     echo [INFO] Virtual environment activated successfully!
     echo [INFO] Virtual environment activated successfully! >> "%LOG_FILE%"
+
+    rem ------------------------------------------------------------
+    rem 8. CHECK FOR .ENV FILE
+    rem ------------------------------------------------------------
+    if not exist ".env" (
+        echo [WARN] ".env" file not found.
+        echo [WARN] ".env" file not found. >> "%LOG_FILE%"
+        echo [INFO] Creating a template ".env.example" file...
+        echo [INFO] Creating a template ".env.example" file... >> "%LOG_FILE%"
+        copy ".env.example" ".env" > nul 2>&1
+        if %errorlevel% neq 0 (
+            echo [ERROR] Failed to create ".env" file.
+            echo [ERROR] Failed to create ".env" file. >> "%LOG_FILE%"
+            exit /b 1
+        )
+        echo [INFO] ".env" file created from ".env.example". Please update it with your configurations.
+        echo [INFO] ".env" file created from ".env.example". Please update it with your configurations. >> "%LOG_FILE%"
+    )
 )
 
 rem ------------------------------------------------------------

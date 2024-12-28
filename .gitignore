@@ -28,9 +28,9 @@ var/
 venv/
 ENV/
 env/
-.venv/
+*env/
 .env/
-
+abp_env/
 # dotenv environment variables
 .env
 
@@ -103,4 +103,4 @@ Thumbs.db
 abp_signal_viewer.log
 *.cfg
 *.spec
-build_log.txt
+*log.txt

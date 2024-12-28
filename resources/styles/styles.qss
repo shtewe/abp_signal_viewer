@@ -1,0 +1,167 @@
+/* resources/styles/styles.qss */
+
+/* 
+    ABP Signal Viewer Stylesheet
+    Provides consistent and modern styling for the application's widgets.
+    Modify colors, fonts, and other properties as needed to match desired aesthetics.
+*/
+
+/* General Widget Styles */
+QWidget {
+    background-color: #F5F5F5; /* Light gray background */
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-size: 14px;
+    color: #333333; /* Dark gray text */
+}
+
+/* QGroupBox Styles */
+QGroupBox {
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+QGroupBox:title {
+    subcontrol-origin: margin;
+    subcontrol-position: top center; /* Position the title at the top center */
+    padding: 0 5px;
+    color: #555555; /* Medium gray for group box titles */
+    font-weight: bold;
+}
+
+/* QPushButton Styles */
+QPushButton {
+    background-color: #4C8BF5; /* Primary blue color */
+    color: #FFFFFF; /* White text */
+    border: none;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+QPushButton:hover {
+    background-color: #1663C7; /* Darker blue on hover */
+}
+
+QPushButton:pressed {
+    background-color: #0D4EA2; /* Even darker blue when pressed */
+}
+
+QPushButton:disabled {
+    background-color: #A0A0A0; /* Gray background when disabled */
+    color: #FFFFFF; /* White text */
+}
+
+/* QLabel Styles */
+QLabel {
+    font-size: 14px;
+    color: #333333; /* Dark gray text */
+}
+
+QLabel#status_label {
+    color: #555555; /* Medium gray for status labels */
+}
+
+/* QComboBox Styles */
+QComboBox {
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    padding: 4px;
+    background-color: #FFFFFF;
+    min-width: 150px;
+}
+
+QComboBox QAbstractItemView {
+    background-color: #FFFFFF;
+    selection-background-color: #4C8BF5;
+    selection-color: #FFFFFF;
+}
+
+/* QSpinBox and QDoubleSpinBox Styles */
+QSpinBox, QDoubleSpinBox {
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    padding: 2px;
+    background-color: #FFFFFF;
+    min-width: 80px;
+}
+
+QSpinBox:hover, QDoubleSpinBox:hover {
+    border: 1px solid #4C8BF5; /* Highlight border on hover */
+}
+
+/* QFrame Styles (e.g., Separator Lines) */
+QFrame {
+    background-color: transparent;
+}
+
+QFrame#separator {
+    border: none;
+    border-top: 1px solid #CCCCCC;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* QStatusBar Styles */
+QStatusBar {
+    background-color: #E0E0E0; /* Slightly darker gray for status bar */
+    color: #333333; /* Dark gray text */
+    font-size: 12px;
+}
+
+/* QWebEngineView Styles */
+QWebEngineView {
+    background-color: #FFFFFF; /* White background for plot area */
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+}
+
+/* QHBoxLayout and QVBoxLayout Adjustments */
+QHBoxLayout, QVBoxLayout {
+    spacing: 10px;
+    margin: 10px;
+}
+
+/* QFormLayout Adjustments */
+QFormLayout {
+    label-align: right;
+    field-growth-policy: ExpandingFieldsGrow;
+}
+
+/* Scrollbars (if any) */
+QScrollBar:vertical {
+    background: #F5F5F5;
+    width: 12px;
+    margin: 0px 0px 0px 0px;
+}
+
+QScrollBar::handle:vertical {
+    background: #CCCCCC;
+    min-height: 20px;
+    border-radius: 6px;
+}
+
+QScrollBar::handle:vertical:hover {
+    background: #AAAAAA;
+}
+
+QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {
+    background: #F5F5F5;
+    height: 0px;
+    subcontrol-position: top;
+}
+
+QScrollBar::add-page:vertical, QScrollBar::sub-page:vertical {
+    background: none;
+}
+
+/* ToolTips */
+QToolTip {
+    background-color: #FFFFE0; /* Light yellow background */
+    color: #000000; /* Black text */
+    border: 1px solid #CCCCCC;
+    font-size: 12px;
+}
+
+/* Placeholder for Future Customizations */
